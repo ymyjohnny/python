@@ -1,0 +1,30 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+class Wife():
+    left_hand = 'chicken'
+    right_hand = 'duck'
+    
+##成员函数检测 abc是否等于他的反序cba
+
+class abc():
+     pass
+
+x2 = abc()
+s = [x,y,z]
+
+
+print x2
+
+
+
+
+
+
+
+
+

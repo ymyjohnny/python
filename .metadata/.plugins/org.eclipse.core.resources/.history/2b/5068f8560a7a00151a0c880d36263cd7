@@ -1,0 +1,17 @@
+#coding=utf-8
+'''
+Created on 2015-10-24
+@author: ymy
+'''
+import os
+
+cpuinfo = os.popen('cat /proc/cpuinfo').read()
+#print cpuinfo.splitlines()
+for i in cpuinfo.splitlines():
+    if 'processor'  in i:
+        print i.split(1)
+
+
+
+
+

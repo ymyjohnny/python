@@ -1,0 +1,4 @@
+import os
+
+m = os.popen('free -m').read()
+print m

@@ -1,0 +1,32 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-27
+@author: ymy
+'''
+#猜数字，计算机有个数，人来猜
+from cgitb import small
+from lxml.html.builder import BIG
+
+def main():
+    start = 1
+    end = 1001
+    
+    number = 666  
+    while 1:
+        i = raw_input('number  is %s % txt)
+    #    current = (start + end) /2 
+    
+        if  number > i :
+            txt = 'small'
+        elif number < i:
+            txt = 'big' 
+        elif number == i:
+            txt = 'You win'        
+         return    
+        
+ #   print current
+
+
+if __name__ == '__main__':
+    main()

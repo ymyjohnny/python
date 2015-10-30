@@ -1,0 +1,11 @@
+#coding=utf-8
+'''
+Created on 2015-10-24
+@author: ymy
+'''
+
+for i in range (1-5):
+    if i > 10:
+        print i 
+ #   else:
+ #       continue

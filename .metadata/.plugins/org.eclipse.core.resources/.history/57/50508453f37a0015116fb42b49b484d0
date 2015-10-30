@@ -1,0 +1,14 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+def test(*l):
+    for i in l:
+      return i.[-1]
+
+a = range(1,1001)
+#print a
+print test(range(1,1001))
+

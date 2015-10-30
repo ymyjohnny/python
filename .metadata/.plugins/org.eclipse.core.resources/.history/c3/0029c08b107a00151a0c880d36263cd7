@@ -1,0 +1,13 @@
+#coding=utf-8
+'''
+Created on 2015-10-24
+@author: ymy
+'''
+import os
+mem = os.popen('ps aux').read()
+
+for i in mem.splitlines():
+    if 'RSS'  in i:
+        continue
+    if  'chromium'  in i:
+        print i

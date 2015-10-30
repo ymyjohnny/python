@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-29
+@author: ymy
+'''
+i = 1
+
+ i = raw_input('is number %d?' % current)
+#raw_input('number  is %d '    % txt)

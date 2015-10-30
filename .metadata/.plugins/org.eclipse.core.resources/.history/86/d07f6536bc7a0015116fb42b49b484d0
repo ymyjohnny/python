@@ -1,0 +1,10 @@
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+su = 0
+for i in range(1,1001):
+    su += i
+print su

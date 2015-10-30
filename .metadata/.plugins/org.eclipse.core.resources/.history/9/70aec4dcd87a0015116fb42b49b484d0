@@ -1,0 +1,14 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+#写一个函数，把2个输入值求和输出
+
+def  sumtest(a,b):
+    return a+b
+
+print sumtest(4,68)
+
+print (lambda a,b:3,5)

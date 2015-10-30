@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.xmind.ui.export.image">
+		<item value="/home/ymy/文档/架构图/max.bmp" key="PATH_HISTORY"/>
+		<item value="image/bmp" key="FORMAT"/>
+	</section>
+	<section name="org.xmind.ui.newWizard">
+		<item value="default:org.xmind.ui.template.default" key="selectedTemplate"/>
+	</section>
+	<section name="org.xmind.ui.openDialog">
+		<item value="2" key="filterIndex"/>
+		<item value="/home/ymy/文档/脑图" key="filterPath"/>
+	</section>
+</section>

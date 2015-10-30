@@ -1,0 +1,17 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-27
+@author: ymy
+'''
+
+
+def main():
+    start = 1
+    end = 1001
+    current = (start + end) /2 
+    print current
+    return
+
+if __name__ == '__main__':
+    main()

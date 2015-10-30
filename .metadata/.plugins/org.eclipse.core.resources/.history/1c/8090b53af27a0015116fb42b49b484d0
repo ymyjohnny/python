@@ -1,0 +1,13 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+def test(*l):
+    a = l / 2
+  #  s = raw_input()
+    return a
+
+print test(range(1,1001))
+

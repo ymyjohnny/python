@@ -1,0 +1,19 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+class  A:
+    a = 10
+
+class D:
+    pass
+
+a = A()
+d = D()
+
+print A, A.a
+print a, a.b
+print d

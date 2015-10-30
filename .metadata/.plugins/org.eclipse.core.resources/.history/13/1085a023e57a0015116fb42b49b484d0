@@ -1,0 +1,27 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+class Wife():
+    left_hand = 'chicken'
+    right_hand = 'duck'
+    
+
+class abc():
+    x = [a,b,c]
+    x1 = [c,b,a]
+
+print abc().x
+   # if abc.a == cba.b:
+      # print ok
+
+
+
+
+
+
+
+

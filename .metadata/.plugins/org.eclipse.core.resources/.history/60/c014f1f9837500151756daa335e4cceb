@@ -1,0 +1,9 @@
+import os
+
+m = os.popen('ps aux').read()
+for line in m.splitlines():
+    if line.startswith('RSS'):
+        continue
+    print line
+
+

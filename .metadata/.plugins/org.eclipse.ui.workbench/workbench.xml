@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="36" version="2.0">
+<workbenchAdvisor/>
+<window height="744" maximized="true" width="1024" x="65" y="24">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.python.pydev.toolbars.evaluateActionSetterToolbar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1442385830945" focus="true" label="Workspace - PyDev">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="0"/>
+<part id="8"/>
+<part id="9"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.python.pydev.editor.PythonEditor" name="函数.py" partName="函数" path="/home/ymy/workspace/pytest/python学习/day2/函数.py" title="函数" tooltip="pytest/python学习/day2/函数.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/函数.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="93" selectionOffset="165" selectionTopPixel="177"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="for和while练习5.py" partName="for和while练习5" path="/home/ymy/workspace/pytest/python学习/day1/for和while练习5.py" title="for和while练习5" tooltip="pytest/python学习/day1/for和while练习5.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day1/for和while练习5.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="392" selectionTopPixel="439"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="习题3.py" partName="习题3" path="/home/ymy/workspace/pytest/python学习/day1/习题3.py" title="习题3" tooltip="pytest/python学习/day1/习题3.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day1/习题3.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="551" selectionTopPixel="164"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="习题3精简答案.py" partName="习题3精简答案" path="/home/ymy/workspace/pytest/python学习/day1/习题3精简答案.py" title="习题3精简答案" tooltip="pytest/python学习/day1/习题3精简答案.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day1/习题3精简答案.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="648" selectionTopPixel="259"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="类.py" partName="类" path="/home/ymy/workspace/pytest/python学习/day2/类.py" title="类" tooltip="pytest/python学习/day2/类.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/类.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="118" selectionTopPixel="59"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="类练习1.py" partName="类练习1" path="/home/ymy/workspace/pytest/python学习/day2/类练习1.py" title="类练习1" tooltip="pytest/python学习/day2/类练习1.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/类练习1.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1376" selectionTopPixel="1377"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="test.py" partName="test" path="/home/ymy/workspace/pytest/python学习/day2/test.py" title="test" tooltip="pytest/python学习/day2/test.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/test.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="151" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="类练习2.py" partName="类练习2" path="/home/ymy/workspace/pytest/python学习/day2/类练习2.py" title="类练习2" tooltip="pytest/python学习/day2/类练习2.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/类练习2.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="824" selectionTopPixel="379"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="类练习3.py" partName="类练习3" path="/home/ymy/workspace/pytest/python学习/day2/类练习3.py" title="类练习3" tooltip="pytest/python学习/day2/类练习3.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/类练习3.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="132" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="函数练习4.py" partName="函数练习4" path="/home/ymy/workspace/pytest/python学习/day2/函数练习4.py" title="函数练习4" tooltip="pytest/python学习/day2/函数练习4.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/pytest/python学习/day2/函数练习4.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="487" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="/home/ymy/workspace/pytest"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/pytest/python学习"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/pytest/python学习/day2"/>
+<selected IMemento.internal.id="/home/ymy/workspace/pytest/python学习/day2/函数练习4.py"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspective editorAreaTrimState="0" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.views.TaskList" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@78004daa" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<show_view_action id="org.python.pydev.views.PyCodeCoverageView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonPackageWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonModuleWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.python.pydev.navigator.view"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.python.pydev.navigator.view" appearance="2" expanded="2">
+<page content="org.python.pydev.navigator.view" label="PyDev Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@52581f9e" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74980146" ratioLeft="944" ratioRight="315" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.22325581" ratioLeft="288" ratioRight="1002" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.74887216" ratioLeft="498" ratioRight="167" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/类.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/类练习1.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/test.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/函数.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/类练习2.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/类练习3.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/pytest/python学习/day2/函数练习4.py"/>
+</editors>
+<item historyLabel="类练习1" index="1">
+<position/>
+</item>
+<item historyLabel="类" index="0">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position/>
+</item>
+<item historyLabel="类" index="0">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position/>
+</item>
+<item historyLabel="类" index="0">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position/>
+</item>
+<item historyLabel="test" index="2">
+<position info="not_deleted" x="151" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="170" y="172"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="1112" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="690" y="0"/>
+</item>
+<item historyLabel="类" index="0">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="690" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="690" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="690" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="690" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="1197" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="类" index="0">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="1197" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="1376" y="0"/>
+</item>
+<item historyLabel="类练习2" index="4">
+<position info="not_deleted" x="841" y="0"/>
+</item>
+<item historyLabel="类练习2" index="4">
+<position info="not_deleted" x="841" y="0"/>
+</item>
+<item historyLabel="类练习1" index="1">
+<position info="not_deleted" x="1376" y="0"/>
+</item>
+<item historyLabel="类练习2" index="4">
+<position info="not_deleted" x="834" y="0"/>
+</item>
+<item historyLabel="test" index="2">
+<position info="not_deleted" x="151" y="0"/>
+</item>
+<item historyLabel="类练习2" index="4">
+<position info="not_deleted" x="824" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="324" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="类" index="0">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="165" y="93"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="111" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="函数" index="3">
+<position info="not_deleted" x="165" y="93"/>
+</item>
+<item historyLabel="类练习3" index="5">
+<position info="not_deleted" x="132" y="0"/>
+</item>
+<item active="true" historyLabel="函数练习4" index="6">
+<position info="not_deleted" x="591" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@52581f9e"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="函数练习4.py" tooltip="pytest/python学习/day2/函数练习4.py">
+<persistable path="/pytest/python学习/day2/函数练习4.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类练习3.py" tooltip="pytest/python学习/day2/类练习3.py">
+<persistable path="/pytest/python学习/day2/类练习3.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类练习2.py" tooltip="pytest/python学习/day2/类练习2.py">
+<persistable path="/pytest/python学习/day2/类练习2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="pytest/python学习/day2/test.py">
+<persistable path="/pytest/python学习/day2/test.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类练习1.py" tooltip="pytest/python学习/day2/类练习1.py">
+<persistable path="/pytest/python学习/day2/类练习1.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类.py" tooltip="pytest/python学习/day2/类.py">
+<persistable path="/pytest/python学习/day2/类.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test3.py" tooltip="pytest/python学习/day2/test3.py">
+<persistable path="/pytest/python学习/day2/test3.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="函数练习3.py" tooltip="pytest/python学习/day2/函数练习3.py">
+<persistable path="/pytest/python学习/day2/函数练习3.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="函数练习2.py" tooltip="pytest/python学习/day2/函数练习2.py">
+<persistable path="/pytest/python学习/day2/函数练习2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="函数练习1.py" tooltip="pytest/python学习/day2/函数练习1.py">
+<persistable path="/pytest/python学习/day2/函数练习1.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题3精简答案.py" tooltip="pytest/python学习/day1/习题3精简答案.py">
+<persistable path="/pytest/python学习/day1/习题3精简答案.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题三答案.py" tooltip="pytest/python学习/day1/习题三答案.py">
+<persistable path="/pytest/python学习/day1/习题三答案.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题一-把进程的使用内存累加.py" tooltip="pytest/python学习/day1/习题一-把进程的使用内存累加.py">
+<persistable path="/pytest/python学习/day1/习题一-把进程的使用内存累加.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二-找出tmp目录下所有相同大小的文件.py" tooltip="pytest/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py">
+<persistable path="/pytest/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="for练习4.py" tooltip="pytest/python学习/day1/for练习4.py">
+<persistable path="/pytest/python学习/day1/for练习4.py"/>
+</file>
+</mruList>
+</workbench>

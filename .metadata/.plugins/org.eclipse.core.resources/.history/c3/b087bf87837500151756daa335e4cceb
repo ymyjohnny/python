@@ -1,0 +1,4 @@
+import os
+
+m = os.popen('ps aux').read()
+print m

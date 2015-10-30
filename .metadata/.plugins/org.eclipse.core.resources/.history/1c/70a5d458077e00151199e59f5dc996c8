@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-29
+@author: ymy
+'''
+
+
+i = int(raw_input("input your weight\n"))
+print 'your weight is %d' % i

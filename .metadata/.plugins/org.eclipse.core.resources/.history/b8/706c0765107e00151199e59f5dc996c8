@@ -1,0 +1,18 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-29
+@author: ymy
+'''
+
+
+def main():
+    n=input("Enter a number:")
+    if n<=2:
+        F=1
+    else:
+        a=1,b=1
+        for i in range(n-2):
+            F=a+b,b=a,a=F
+    print"The",n,"th Fibonacci number is",F
+main()

@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+def  add(a=1,b,c):
+    return a+b+c 
+add(3,6,8)

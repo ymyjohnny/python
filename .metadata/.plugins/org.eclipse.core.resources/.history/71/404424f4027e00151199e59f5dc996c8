@@ -1,0 +1,35 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-27
+@author: ymy
+'''
+#猜数字，计算机有个数，人来猜
+
+def main():
+    start = 1
+    end = 1001
+    
+    number = 666  
+    int(raw_input("input your number\n"))
+    print 'your number is %d' % i
+    while True:
+        i = int(raw_input('your number is %d'    % i))
+    #    current = (start + end) /2 
+    
+        if  i > number :
+            txt = 'small'
+        elif i < number:
+            txt = 'big' 
+        elif i == number:
+            txt = 'You win'        
+            return    
+        elif i == 'quit':
+            return
+        
+        
+ #   print current
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,9 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+l = range(1,1000)
+print l

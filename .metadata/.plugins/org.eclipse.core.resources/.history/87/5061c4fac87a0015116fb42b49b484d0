@@ -1,0 +1,14 @@
+#!/usr/bin/python
+    #coding=utf-8
+    '''
+    Created on 2015-10-25
+    @author: ymy
+    '''
+    
+    
+##########正确答案
+f = open('/home/ymy/python/uplooking/少年pi的奇幻漂流\ 中文版.txt')
+s = f.read().decode('utf-8')
+
+for line in s.splitlines():
+    print line

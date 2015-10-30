@@ -1,0 +1,27 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+from Tkconstants import CURRENT
+
+def main():
+    
+      start = 1 
+      end = 1001
+      while True:
+          
+          current = (start + end) / 2
+
+          i = raw_input('is number %d? % current')
+              if i == 'quit':
+                  return
+              elif i == 'big'
+                 end = current 
+             elif i == 'small'
+                 start = current + 1
+            elif i == 'eq'
+                print current 
+                return
+if __name__ == '__main__': main()

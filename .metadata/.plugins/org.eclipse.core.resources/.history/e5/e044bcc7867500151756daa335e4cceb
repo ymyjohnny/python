@@ -1,0 +1,10 @@
+import os
+from os.path import join, getsize
+
+for root, dirs, files in os.walk('/tmp'):
+    for file in flies:
+        if '-' not in file:
+            continue
+     #   filenameall = path.join(dirs, files)
+        #print filenameall
+

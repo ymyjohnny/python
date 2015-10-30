@@ -1,0 +1,18 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+import math
+
+def test(a,b,c):
+    x = b*b -4*a*c
+    x0 = math.sqrt(x)
+    x1 = b+ x
+    x2 = x1 % 2
+    x3 = x2 % a
+    print x0,x1,x2,x3
+    return float(x3)
+print test(1,20,2)
+    

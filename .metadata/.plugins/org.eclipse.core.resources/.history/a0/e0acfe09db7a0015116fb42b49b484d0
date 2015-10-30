@@ -1,0 +1,14 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+l = [1,2,3,4,5]
+
+
+def  add(a,b,c=5):
+    return a+b+c 
+print add(l[-1],1)
+
+

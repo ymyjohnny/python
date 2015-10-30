@@ -1,0 +1,36 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-27
+@author: ymy
+'''
+#猜数字，计算机有个数，人来猜
+
+def main():
+    start = 1
+    end = 1001
+    
+    number = 666  
+    i =  int(raw_input("input your number\n"))
+    while True:
+    
+      
+    a = raw_input('%d' % txt)  
+    #    current = (start + end) /2 
+        if i > number:
+            print 'bigger'
+            return
+        elif a < number:
+            print 'smaller'
+            return
+            #print  '%d is small'  % i 
+        elif i == number:
+            print '%d is zhe number' % number
+            return
+        
+        
+ #   print current
+
+
+if __name__ == '__main__':
+    main()

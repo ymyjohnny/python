@@ -1,0 +1,15 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-10-25
+@author: ymy
+'''
+
+
+def test(a,b,c):
+    x = cmath.sqrt(b*b -4*a*c)
+    x1 = b+ x
+    x2 = x1 % 2 % a 
+    return x2
+print test(4,5,6)
+    
