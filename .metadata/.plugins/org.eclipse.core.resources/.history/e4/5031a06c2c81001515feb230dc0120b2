@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-2
+@author: ymy
+'''
+
+
+r = '.'join(test*4)
+print r

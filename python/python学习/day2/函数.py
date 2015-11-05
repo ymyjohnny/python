@@ -13,12 +13,20 @@ print a
 print (lambda a,b:a+b)(5,7)
 
 ##参数不固定用*
+#写一个函数 计算输入多个值的和
 def add(*l):
     s = 0
     for i in l:
         s += i 
     return s 
 print add(1,2,3,4,5,6,7)
+
+
+#reduce 迭代函数
+def add1(x,y):
+    return x+y
+reduce(add1, range(1,3))
+
 
 
 def add1(a,b,c):

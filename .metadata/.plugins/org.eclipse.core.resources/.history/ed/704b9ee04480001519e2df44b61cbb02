@@ -1,0 +1,26 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-1
+@author: ymy
+'''
+
+
+#使用os.*去操作一个不存在的文件(输入可以是数字么？)
+
+import os
+
+def test(a):
+    try:
+        for i in os.listdir(a):
+            raise test()
+            print i
+    except Exception:
+        return 222
+
+def main():
+    test('/tmp2')    
+if __name__ == '__main__':
+    main()
+        
+        

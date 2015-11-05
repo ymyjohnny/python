@@ -1,0 +1,39 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-2
+@author: ymy
+'''
+
+import os,re,sys
+
+dirname = '/tmp'
+
+def allfile(dirname):
+    filenames = []
+    for base,dirs,files in os.walk(dirname):
+        for file in files:
+            filename = os.path.join(base,file)
+            #print filename
+            filenames.append(filename)
+    print filenames
+            #print filenames
+
+def grep_a(file,str):
+    f = open(file)
+    for line in f:
+        m = str.match(line,str)
+        if m:
+            print file + ':' + line
+    f.close()
+    
+
+def main():
+    files = allfile(sys.argv[2])
+    str = re.compile(sys.argv[1])
+    for filepath in files:
+        grep_a(filepath,str)
+
+if __name__ == '__main__':
+    main()
+  

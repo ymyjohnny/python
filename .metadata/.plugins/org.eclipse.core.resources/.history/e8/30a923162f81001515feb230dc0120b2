@@ -1,0 +1,21 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-2
+@author: ymy
+'''
+
+import re
+
+
+s = '111,world!'
+
+w = '/d{1,3}'
+
+m = re.search(w,s)
+
+m1 = re.match(w,s)
+
+
+if m:
+    print  'search match'

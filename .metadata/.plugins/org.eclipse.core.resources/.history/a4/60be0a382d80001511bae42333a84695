@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-1
+@author: ymy
+'''
+
+import sys
+
+print sys.argv

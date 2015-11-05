@@ -1,0 +1,16 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-1
+@author: ymy
+'''
+
+
+
+
+def test(a,b,c):
+    return c,b,a
+
+
+a,b,c = test(7,8,9)
+print a

@@ -1,0 +1,12 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-1
+@author: ymy
+'''
+
+
+import os, re
+
+for root, dirs, files in os.walk('/tmp'):
+    print files

@@ -1,9 +1,0 @@
-build = 3
-nijia = 20
-didao = 5
-samura = 40
-
-fighter = build*nijia + didao*samura
-print fighter
-
-##测试

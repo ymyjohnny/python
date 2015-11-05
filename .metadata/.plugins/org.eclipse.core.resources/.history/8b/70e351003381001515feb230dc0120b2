@@ -1,0 +1,19 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-2
+@author: ymy
+'''
+
+import os
+
+dirname = '/tmp'
+
+def allfile(dirname):
+    for base,dirs,files in os.walk(dirname):
+        print files
+        for file in files:
+            filename = os.path.join(base,file)
+          #  print filename
+            
+allfile(dirname)

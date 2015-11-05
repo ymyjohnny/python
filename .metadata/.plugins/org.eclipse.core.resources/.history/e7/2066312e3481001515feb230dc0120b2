@@ -1,0 +1,24 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-2
+@author: ymy
+'''
+
+import os
+
+dirname = '/tmp'
+
+def allfile(dirname):
+    filenames = []
+    for base,dirs,files in os.walk(dirname):
+        for file in files:
+            filename = os.path.join(base,file)
+            filenames = filenames.append(filename)
+            #print filenames
+
+#def grep_a(file,str):
+    #pass
+    
+            
+allfile(dirname)

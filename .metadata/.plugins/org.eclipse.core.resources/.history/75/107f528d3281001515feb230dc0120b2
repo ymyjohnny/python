@@ -1,0 +1,15 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-2
+@author: ymy
+'''
+
+import os
+
+dirname = '/tmp'
+
+def allfile(dirname):
+    for base,dirs,files in os.walk(dirname):
+        for filename in files:
+            print filename
