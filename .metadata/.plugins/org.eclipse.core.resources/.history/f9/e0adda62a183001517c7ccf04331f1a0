@@ -1,0 +1,31 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-1
+@author: ymy
+'''
+
+#写一个函数 算出一堆数字的平均数，并做异常检测
+import sys
+
+def numlist(a,b):
+    list = range(a,b+1)
+    return list
+
+def main():
+    testa = sys.argv[1]
+    testb = sys.argv[2]
+    data = numlist(testa,testb)
+    for i in data:
+        sum = 0
+        sum += i
+       # avg = sum/len(i)
+    print sum
+
+if __name__ == '__main__':
+    main()
+ 
+    
+#if __name__ == '__main__':
+   # main(l)
+    
