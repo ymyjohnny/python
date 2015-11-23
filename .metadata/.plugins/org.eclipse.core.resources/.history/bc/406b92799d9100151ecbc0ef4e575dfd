@@ -10,11 +10,11 @@ import re
 import subprocess
 
 def get_process(s):
-    Process = subprocess.check_output(["ps","-ef"]).splitlines()
-    #print Process
-    for line in Process:
-        if  re.search(s, line):
-            yield line
+      Process = subprocess.check_output(["ps","-ef"]).splitlines()
+      #print Process
+      for line in Process:
+          if  re.search(s, line):
+              yield line
               
 def get_pid(lines):
     for line in lines:
