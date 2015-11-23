@@ -7439,3 +7439,16 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+
+!ENTRY org.eclipse.core.resources 2 2 2015-11-23 12:49:22.045
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-23 12:49:22.045
+!MESSAGE The project description file (.project) for 'test999' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.ui.browser 2 0 2015-11-23 12:52:30.120
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.core.resources 2 2 2015-11-23 13:01:32.511
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-23 13:01:32.511
+!MESSAGE The project description file (.project) for 'test999' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
