@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="43" version="2.0">
 <workbenchAdvisor/>
-<window height="715" maximized="true" width="1018" x="1373" y="266">
+<window height="715" maximized="true" width="1018" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -38,87 +38,47 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="8"/>
 <part id="7"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="类.py" partName="类" path="/home/ymy/workspace/python/python学习/day2/类.py" title="类" tooltip="python/python学习/day2/类.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day2/类.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="猜数字随机数.py" partName="猜数字随机数" path="/home/ymy/workspace/python/python学习/day5/猜数字随机数.py" title="猜数字随机数" tooltip="python/python学习/day5/猜数字随机数.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/猜数字随机数.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="506" selectionTopPixel="261"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="类1.py" partName="类1" path="/home/ymy/workspace/python/python学习/day2/类1.py" title="类1" tooltip="python/python学习/day2/类1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day2/类1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="237" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="生成15位随机密码串.py" partName="生成15位随机密码串" path="/home/ymy/workspace/python/python学习/day5/生成15位随机密码串.py" title="生成15位随机密码串" tooltip="python/python学习/day5/生成15位随机密码串.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/生成15位随机密码串.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="234" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="模块1.py" partName="模块1" path="/home/ymy/workspace/python/python学习/day3/模块1.py" title="模块1" tooltip="python/python学习/day3/模块1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/模块1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="删除目录下不需要保存的文件.py" partName="删除目录下不需要保存的文件" path="/home/ymy/workspace/python/python学习/day5/删除目录下不需要保存的文件.py" title="删除目录下不需要保存的文件" tooltip="python/python学习/day5/删除目录下不需要保存的文件.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/删除目录下不需要保存的文件.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1819" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="system.py" partName="system" path="/home/ymy/workspace/python/python学习/system.py" title="system" tooltip="python/python学习/system.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/system.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="52" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="用hashlib对某目录下所有文件计算hash.py" partName="用hashlib对某目录下所有文件计算hash" path="/home/ymy/workspace/python/python学习/day5/用hashlib对某目录下所有文件计算hash.py" title="用hashlib对某目录下所有文件计算hash" tooltip="python/python学习/day5/用hashlib对某目录下所有文件计算hash.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/用hashlib对某目录下所有文件计算hash.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1105" selectionTopPixel="457"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="avg.py" partName="avg" path="/home/ymy/workspace/python/python学习/day3/avg.py" title="avg" tooltip="python/python学习/day3/avg.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/avg.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="155" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="单元测试例子.py" partName="单元测试例子" path="/home/ymy/workspace/python/python学习/day5/单元测试例子.py" title="单元测试例子" tooltip="python/python学习/day5/单元测试例子.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/单元测试例子.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="821" selectionTopPixel="219"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="for 练习1.py" partName="for 练习1" path="/home/ymy/workspace/python/python学习/day1/for 练习1.py" title="for 练习1" tooltip="python/python学习/day1/for 练习1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day1/for 练习1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="单元测试练习.py" partName="单元测试练习" path="/home/ymy/workspace/python/python学习/day5/单元测试练习.py" title="单元测试练习" tooltip="python/python学习/day5/单元测试练习.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/单元测试练习.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="745" selectionTopPixel="24"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="正则表达式.py" partName="正则表达式" path="/home/ymy/workspace/python/python学习/day3/正则表达式.py" title="正则表达式" tooltip="python/python学习/day3/正则表达式.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/正则表达式.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="39"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="调用系统命令并返回.py" partName="调用系统命令并返回" path="/home/ymy/workspace/python/python学习/day1/调用系统命令并返回.py" title="调用系统命令并返回" tooltip="python/python学习/day1/调用系统命令并返回.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day1/调用系统命令并返回.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="189" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="模拟grep.py" partName="模拟grep" path="/home/ymy/workspace/python/python学习/day3/模拟grep.py" title="模拟grep" tooltip="python/python学习/day3/模拟grep.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/模拟grep.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="643" selectionTopPixel="241"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="pdb用法.py" partName="pdb用法" path="/home/ymy/workspace/python/python学习/day5/pdb用法.py" title="pdb用法" tooltip="python/python学习/day5/pdb用法.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/pdb用法.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="759" selectionTopPixel="721"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="习题二-找出tmp目录下所有相同大小的文件.py" partName="习题二-找出tmp目录下所有相同大小的文件" path="/home/ymy/workspace/python/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py" title="习题二-找出tmp目录下所有相同大小的文件" tooltip="python/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="53" selectionOffset="10" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="正则练习1.py" partName="正则练习1" path="/home/ymy/workspace/python/python学习/day3/正则练习1.py" title="正则练习1" tooltip="python/python学习/day3/正则练习1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/正则练习1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="75" selectionTopPixel="79"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="函数.py" partName="函数" path="/home/ymy/workspace/python/python学习/day2/函数.py" title="函数" tooltip="python/python学习/day2/函数.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day2/函数.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="236"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="正则练习1答案.py" partName="正则练习1答案" path="/home/ymy/workspace/python/python学习/day3/正则练习1答案.py" title="正则练习1答案" tooltip="python/python学习/day3/正则练习1答案.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/正则练习1答案.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="233" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="正则练习1答案2.py" partName="正则练习1答案2" path="/home/ymy/workspace/python/python学习/day3/正则练习1答案2.py" title="正则练习1答案2" tooltip="python/python学习/day3/正则练习1答案2.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/正则练习1答案2.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="813" selectionTopPixel="379"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="异常2.py" partName="异常2" path="/home/ymy/workspace/python/python学习/day3/异常2.py" title="异常2" tooltip="python/python学习/day3/异常2.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/异常2.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="异常1.py" partName="异常1" path="/home/ymy/workspace/python/python学习/day3/异常1.py" title="异常1" tooltip="python/python学习/day3/异常1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/异常1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="异常3.py" partName="异常3" path="/home/ymy/workspace/python/python学习/day3/异常3.py" title="异常3" tooltip="python/python学习/day3/异常3.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/异常3.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="异常练习1.py" partName="异常练习1" path="/home/ymy/workspace/python/python学习/day3/异常练习1.py" title="异常练习1" tooltip="python/python学习/day3/异常练习1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day3/异常练习1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="字符串.py" partName="字符串" path="/home/ymy/workspace/python/python学习/day5/字符串.py" title="字符串" tooltip="python/python学习/day5/字符串.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day5/字符串.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="114" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -129,8 +89,9 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/home/ymy/workspace/python"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day3"/>
-<selected IMemento.internal.id="/home/ymy/workspace/python/python学习/day3/正则练习1答案2.py"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day5"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/练习"/>
+<selected IMemento.internal.id="/home/ymy/workspace/python/python学习/day5/删除目录下不需要保存的文件.py"/>
 </viewState>
 </view>
 </views>
@@ -248,6 +209,7 @@
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@52581f9e" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="topLeft">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -276,166 +238,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/模拟grep.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/正则练习1.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day2/函数.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/正则练习1答案.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/正则练习1答案2.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/正则表达式.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/异常2.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/异常1.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/异常3.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day3/异常练习1.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day5/用hashlib对某目录下所有文件计算hash.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day5/单元测试例子.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day5/单元测试练习.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/调用系统命令并返回.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day5/pdb用法.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day5/字符串.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day5/删除目录下不需要保存的文件.py"/>
 </editors>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="289" y="218"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="259" y="0"/>
 </item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="388" y="0"/>
+<item historyLabel="用hashlib对某目录下所有文件计算hash" index="0">
+<position info="not_deleted" x="549" y="213"/>
 </item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="289" y="218"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="259" y="0"/>
 </item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="438" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="289" y="218"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="259" y="0"/>
 </item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="438" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="289" y="218"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="438" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="289" y="218"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="438" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="643" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="332" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="643" y="0"/>
-</item>
-<item historyLabel="函数" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="332" y="0"/>
-</item>
-<item historyLabel="函数" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="332" y="0"/>
-</item>
-<item historyLabel="函数" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="332" y="0"/>
-</item>
-<item historyLabel="函数" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="643" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="370" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="401" y="37"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="719" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="389" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="719" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="400" y="0"/>
-</item>
-<item historyLabel="函数" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="模拟grep" index="0">
-<position info="not_deleted" x="643" y="0"/>
-</item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="正则练习1答案" index="3">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="正则练习1答案2" index="4">
+<item historyLabel="单元测试练习" index="2">
 <position info="not_deleted" x="815" y="0"/>
 </item>
-<item historyLabel="正则练习1答案2" index="4">
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="554" y="373"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
 <position/>
 </item>
-<item historyLabel="正则表达式" index="5">
-<position info="not_deleted" x="433" y="0"/>
+<item historyLabel="调用系统命令并返回" index="3">
+<position info="not_deleted" x="155" y="34"/>
 </item>
-<item historyLabel="正则练习1答案2" index="4">
-<position info="not_deleted" x="74" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="395" y="0"/>
 </item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="75" y="20"/>
+<item historyLabel="调用系统命令并返回" index="3">
+<position info="not_deleted" x="59" y="76"/>
 </item>
-<item historyLabel="正则练习1答案2" index="4">
-<position info="not_deleted" x="753" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="645" y="0"/>
 </item>
-<item historyLabel="异常2" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="680" y="0"/>
 </item>
-<item historyLabel="异常1" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="766" y="0"/>
 </item>
-<item historyLabel="异常2" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="680" y="0"/>
 </item>
-<item historyLabel="异常3" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="766" y="0"/>
 </item>
-<item historyLabel="异常练习1" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="680" y="0"/>
 </item>
-<item historyLabel="正则表达式" index="5">
-<position info="not_deleted" x="433" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="766" y="0"/>
 </item>
-<item historyLabel="正则练习1" index="1">
-<position info="not_deleted" x="75" y="20"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="680" y="0"/>
 </item>
-<item historyLabel="正则练习1答案" index="3">
-<position info="not_deleted" x="233" y="0"/>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="766" y="0"/>
 </item>
-<item active="true" historyLabel="正则练习1答案2" index="4">
-<position info="not_deleted" x="753" y="0"/>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="680" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="767" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="828" y="51"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="563" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="563" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="调用系统命令并返回" index="3">
+<position info="not_deleted" x="59" y="76"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="调用系统命令并返回" index="3">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="用hashlib对某目录下所有文件计算hash" index="0">
+<position info="not_deleted" x="549" y="213"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="用hashlib对某目录下所有文件计算hash" index="0">
+<position info="not_deleted" x="77" y="1224"/>
+</item>
+<item historyLabel="pdb用法" index="4">
+<position info="not_deleted" x="1358" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="pdb用法" index="4">
+<position info="not_deleted" x="759" y="0"/>
+</item>
+<item historyLabel="字符串" index="5">
+<position info="not_deleted" x="114" y="0"/>
+</item>
+<item historyLabel="pdb用法" index="4">
+<position info="not_deleted" x="759" y="0"/>
+</item>
+<item historyLabel="单元测试练习" index="2">
+<position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="单元测试例子" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="用hashlib对某目录下所有文件计算hash" index="0">
+<position info="not_deleted" x="1105" y="0"/>
+</item>
+<item active="true" historyLabel="删除目录下不需要保存的文件" index="6">
+<position info="not_deleted" x="1404" y="59"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -455,50 +414,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="异常练习1.py" tooltip="python/python学习/day3/异常练习1.py">
-<persistable path="/python/python学习/day3/异常练习1.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="字符串.py" tooltip="python/python学习/day5/字符串.py">
+<persistable path="/python/python学习/day5/字符串.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="异常3.py" tooltip="python/python学习/day3/异常3.py">
-<persistable path="/python/python学习/day3/异常3.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="pdb用法.py" tooltip="python/python学习/day5/pdb用法.py">
+<persistable path="/python/python学习/day5/pdb用法.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="异常1.py" tooltip="python/python学习/day3/异常1.py">
-<persistable path="/python/python学习/day3/异常1.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="调用系统命令并返回.py" tooltip="python/python学习/day1/调用系统命令并返回.py">
+<persistable path="/python/python学习/day1/调用系统命令并返回.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="异常2.py" tooltip="python/python学习/day3/异常2.py">
-<persistable path="/python/python学习/day3/异常2.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="单元测试练习.py" tooltip="python/python学习/day5/单元测试练习.py">
+<persistable path="/python/python学习/day5/单元测试练习.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则练习1答案2.py" tooltip="python/python学习/day3/正则练习1答案2.py">
-<persistable path="/python/python学习/day3/正则练习1答案2.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="单元测试例子.py" tooltip="python/python学习/day5/单元测试例子.py">
+<persistable path="/python/python学习/day5/单元测试例子.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则练习1答案.py" tooltip="python/python学习/day3/正则练习1答案.py">
-<persistable path="/python/python学习/day3/正则练习1答案.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="用hashlib对某目录下所有文件计算hash.py" tooltip="python/python学习/day5/用hashlib对某目录下所有文件计算hash.py">
+<persistable path="/python/python学习/day5/用hashlib对某目录下所有文件计算hash.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="函数.py" tooltip="python/python学习/day2/函数.py">
-<persistable path="/python/python学习/day2/函数.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="删除目录下不需要保存的文件.py" tooltip="python/python学习/day5/删除目录下不需要保存的文件.py">
+<persistable path="/python/python学习/day5/删除目录下不需要保存的文件.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则练习1.py" tooltip="python/python学习/day3/正则练习1.py">
-<persistable path="/python/python学习/day3/正则练习1.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="生成15位随机密码串.py" tooltip="python/python学习/day5/生成15位随机密码串.py">
+<persistable path="/python/python学习/day5/生成15位随机密码串.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="randomtest.py" tooltip="python/python学习/day5/randomtest.py">
+<persistable path="/python/python学习/day5/randomtest.py"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二-找出tmp目录下所有相同大小的文件.py" tooltip="python/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py">
 <persistable path="/python/python学习/day1/习题二-找出tmp目录下所有相同大小的文件.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二.py" tooltip="python/python学习/day1/习题二.py">
-<persistable path="/python/python学习/day1/习题二.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="猜数字随机数.py" tooltip="python/python学习/day5/猜数字随机数.py">
+<persistable path="/python/python学习/day5/猜数字随机数.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题三答案.py" tooltip="python/python学习/day1/习题三答案.py">
-<persistable path="/python/python学习/day1/习题三答案.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="函数练习5.py" tooltip="python/python学习/day2/函数练习5.py">
+<persistable path="/python/python学习/day2/函数练习5.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="模拟grep.py" tooltip="python/python学习/day3/模拟grep.py">
-<persistable path="/python/python学习/day3/模拟grep.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类.py" tooltip="python/python学习/day2/类.py">
+<persistable path="/python/python学习/day2/类.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则表达式.py" tooltip="python/python学习/day3/正则表达式.py">
-<persistable path="/python/python学习/day3/正则表达式.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类1.py" tooltip="python/python学习/day2/类1.py">
+<persistable path="/python/python学习/day2/类1.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="for 练习1.py" tooltip="python/python学习/day1/for 练习1.py">
-<persistable path="/python/python学习/day1/for 练习1.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="avg.py" tooltip="python/python学习/day3/avg.py">
-<persistable path="/python/python学习/day3/avg.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="类练习1.py" tooltip="python/python学习/day2/类练习1.py">
+<persistable path="/python/python学习/day2/类练习1.py"/>
 </file>
 </mruList>
 </workbench>

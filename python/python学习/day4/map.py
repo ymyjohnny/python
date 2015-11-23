@@ -1,0 +1,23 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-15
+@author: ymy
+'''
+
+
+def xx(x):
+    return x*x
+
+def up7(x):
+    return (x % 7) < 4
+
+def mul(x, y):
+    return x*y
+
+def main():
+    print map(xx, range(500))
+    print filter(up7, map(xx, range(500)))
+    print reduce(mul, filter(up7, map(xx, range(1,500))))
+if __name__ == '__main__': main()
+    

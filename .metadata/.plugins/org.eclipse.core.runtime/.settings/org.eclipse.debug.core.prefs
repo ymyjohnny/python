@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="print sys.argv&\#10;&\#10;\#\u6253\u5370\u6587\u4EF6\u540E\u7684\u53C2\u65701&\#10;print sys.argv[1]"/>\n</watchExpressions>\n

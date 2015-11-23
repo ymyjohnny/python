@@ -1,0 +1,15 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-15
+@author: ymy
+'''
+
+
+def xx(x):
+    return x*x
+
+def main():
+    map(xx, range(500))
+if __name__ == '__main__': main()
+    

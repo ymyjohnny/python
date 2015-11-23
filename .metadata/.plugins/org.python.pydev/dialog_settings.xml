@@ -4,11 +4,13 @@
 		<section name="DialogBoundsSettings">
 			<item value="640" key="DIALOG_WIDTH"/>
 			<item value="53" key="DIALOG_Y_ORIGIN"/>
-			<item value="372" key="DIALOG_HEIGHT"/>
+			<item value="344" key="DIALOG_HEIGHT"/>
 			<item value="350" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
 	<section name="pydev_completion_proposal_size">
+		<item value="372" key="size.x"/>
+		<item value="247" key="size.y"/>
 	</section>
 </section>

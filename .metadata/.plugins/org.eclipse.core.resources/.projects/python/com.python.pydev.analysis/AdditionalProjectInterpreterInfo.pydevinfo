@@ -1,12 +1,22 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/ymy/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/python/com.python.pydev.analysis/v2_indexcache
+每天一个python小程序.20151123获取java进程的id号|1448253799000000000|/home/ymy/workspace/python/每天一个python小程序/20151123获取java进程的id号.py
+python学习.day5.删除目录下不需要保存的文件|1448253133000000000|/home/ymy/workspace/python/python学习/day5/删除目录下不需要保存的文件.py
+python学习.day3.正则练习1答案|1446365545000000000|/home/ymy/workspace/python/python学习/day3/正则练习1答案.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+3
+2=每天一个python小程序.20151123获取java进程的id号
+1=python学习.day5.删除目录下不需要保存的文件
+3=python学习.day3.正则练习1答案
 -- END DICTIONARY
 -- START TREE 1
-0
+4
+fil|1|filter_date!10@
+get|3|get_pid!18@getfiles!10@get_process!18@
+gre|1|grep_a!26@
+mai|2|main!10@main!18@
 -- END TREE
 -- START TREE 2
 0

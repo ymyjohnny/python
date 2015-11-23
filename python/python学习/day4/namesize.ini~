@@ -1,0 +1,4 @@
+[sec]
+package = day4.tar.gz
+csvname = csvname
+attr = name,size,mode,type,uid

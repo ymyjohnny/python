@@ -1,8 +1,7 @@
-INSTUPpython学习.day3.test
-/home/ymy/workspace/python/python学习/day3/test.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0
-w=3
-python学习.day3.test=2
-s=1
-m1=5
-m=4
+INSTUP每天一个python小程序.20151123获取java进程的id号
+/home/ymy/workspace/python/每天一个python小程序/20151123获取java进程的id号.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0
+get_pid=3
+每天一个python小程序.20151123获取java进程的id号=2
+get_process=1
+main=4
