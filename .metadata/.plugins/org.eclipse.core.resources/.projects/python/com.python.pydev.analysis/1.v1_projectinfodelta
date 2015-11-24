@@ -1,7 +1,8 @@
-INSTUP每天一个python小程序.20151123获取java进程的id号
-/home/ymy/workspace/python/每天一个python小程序/20151123获取java进程的id号.py
-INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0
-get_pid=3
-每天一个python小程序.20151123获取java进程的id号=2
-get_process=1
-main=4
+INSTUP每天一个python小程序.20151122grep
+/home/ymy/workspace/python/每天一个python小程序/20151122grep.py
+INFOS:&&3|1|2|0&&3|3|2|0&&2|4|2|0&&2|5|2|0
+f=3
+findString=4
+f1=1
+main=5
+每天一个python小程序.20151122grep=2

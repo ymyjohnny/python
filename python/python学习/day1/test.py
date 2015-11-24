@@ -1,10 +1,9 @@
 #!/usr/bin/python
 #coding=utf-8
 '''
-Created on 2015-10-25
+Created on 2015-11-23
 @author: ymy
+Copyright ymyjohnny@gmail.com
 '''
-a = [0]
-a.append(4)
-print a
+
 
