@@ -8305,3 +8305,8 @@ org.osgi.service.prefs.BackingStoreException: Exception occurred while saving pr
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-24 11:48:56.515
 !MESSAGE The project description file (.project) for 'test999' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2015-11-24 13:08:49.996
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-24 13:08:49.996
+!MESSAGE The project description file (.project) for 'test999' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
