@@ -1,0 +1,21 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-24
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+filter_file = open('filter_word.txt')
+
+def filter_file(s, regex):
+    pass
+
+
+
+def main():
+file = filter_file.read()
+print file
+filter_file.close()
+
+if __name__ == '__main__':
+    main()    

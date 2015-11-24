@@ -1,0 +1,30 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-24
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+import re
+import sys
+
+
+filter_file = open('filter_word.txt' )
+print filter_file.read()
+
+def filter_file(s, regex):
+    for word in regex.splitlines():
+        print word
+        if  re.search(word, s):
+            print filter
+            
+
+
+
+def main():
+    s = sys.argv[1:]
+    filter_file(s, filter_file.read())
+
+if __name__ == '__main__':
+    main()    

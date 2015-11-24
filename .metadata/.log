@@ -8171,3 +8171,137 @@ org.osgi.service.prefs.BackingStoreException: Exception occurred while saving pr
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-24 10:42:01.682
 !MESSAGE The project description file (.project) for 'test999' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-11-24 11:16:19.741
+!MESSAGE Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/python/.settings/org.eclipse.core.resources.prefs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1076)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:321)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:559)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:586)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.eclipse.ui.internal.ide.undo.FileDescription.createExistentResourceFromHandle(FileDescription.java:192)
+	at org.eclipse.ui.internal.ide.undo.AbstractResourceDescription.createResource(AbstractResourceDescription.java:90)
+	at org.eclipse.ui.ide.undo.WorkspaceUndoUtil.recreate(WorkspaceUndoUtil.java:748)
+	at org.eclipse.ui.ide.undo.AbstractResourcesOperation.recreate(AbstractResourcesOperation.java:141)
+	at org.eclipse.ui.ide.undo.AbstractCreateResourcesOperation.doExecute(AbstractCreateResourcesOperation.java:59)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run(AbstractWorkspaceOperation.java:206)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:204)
+	at org.eclipse.ui.dialogs.WizardNewFileCreationPage$4.run(WizardNewFileCreationPage.java:445)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-11-24 11:16:19.742
+!MESSAGE Resource is out of sync with the file system: '/python/.settings/org.eclipse.core.resources.prefs'.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-11-24 11:18:27.253
+!MESSAGE Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/python/.settings/org.eclipse.core.resources.prefs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1076)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:321)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:559)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:586)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-11-24 11:18:27.253
+!MESSAGE Resource is out of sync with the file system: '/python/.settings/org.eclipse.core.resources.prefs'.
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-11-24 11:18:27.254
+!MESSAGE Could not save encoding settings.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/python)[382]: org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:600)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 382 2015-11-24 11:18:27.254
+!MESSAGE Could not save encoding settings.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:600)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-11-24 11:23:06.897
+!MESSAGE Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/python/.settings/org.eclipse.core.resources.prefs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1076)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:321)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:559)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:586)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-11-24 11:23:06.897
+!MESSAGE Resource is out of sync with the file system: '/python/.settings/org.eclipse.core.resources.prefs'.
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-11-24 11:23:06.898
+!MESSAGE Could not save encoding settings.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/python)[382]: org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:600)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 382 2015-11-24 11:23:06.899
+!MESSAGE Could not save encoding settings.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /python/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:600)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:256)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:434)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:442)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 2 2 2015-11-24 11:48:56.515
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-24 11:48:56.515
+!MESSAGE The project description file (.project) for 'test999' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
