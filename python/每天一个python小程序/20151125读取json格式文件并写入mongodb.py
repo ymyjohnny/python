@@ -24,4 +24,8 @@ db = mongoclient.ymytest
 
 db.test1.save(config)
 
+f.close()
+
+
+
 

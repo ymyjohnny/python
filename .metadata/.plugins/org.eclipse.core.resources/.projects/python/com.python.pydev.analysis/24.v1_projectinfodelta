@@ -1,1 +1,8 @@
-DELSTR每天一个python小程序.20151124filter
+INSTUP每天一个python小程序.20151125读取json格式文件并写入mongodb
+/home/ymy/workspace/python/每天一个python小程序/20151125读取json格式文件并写入mongodb.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0
+f=1
+db=5
+mongoclient=4
+config=3
+每天一个python小程序.20151125读取json格式文件并写入mongodb=2
