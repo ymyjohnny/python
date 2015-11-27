@@ -9,3 +9,5 @@
 2015-11-25 从config20151124.json中读取json格式的配置，加入当前时间datetime，并写入到mongodb的ymytest库的test1表中
 
 2015-11-26 获取线上所有服务器的基础信息，存入mongodb
+
+2015-11-27 从mongodb读取服务器基础信息，打印出hostname

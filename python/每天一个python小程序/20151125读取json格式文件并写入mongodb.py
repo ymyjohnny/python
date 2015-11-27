@@ -14,7 +14,7 @@ f = open('config20151124.json', 'r')
 config = json.load(f)
 
 #字典中添加当前时间
-config["datetime"] =  datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+config["datetime"] =  datetime.datetime.now().strftime("%Y-%m-%d")
 
 #print config
 
