@@ -1,1 +1,11 @@
-DELSTR每天一个python小程序.20151124读取json格式文件并写入mongodb
+INSTUP每天一个python小程序.20151128发邮件
+/home/ymy/workspace/python/每天一个python小程序/20151128发邮件.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&2|7|2|0&&3|8|2|0
+f=8
+mail_user=4
+mail_pass=5
+mailto_list=1
+mail_postfix=6
+每天一个python小程序.20151128发邮件=2
+send_mail=7
+mail_host=3
