@@ -47,12 +47,12 @@
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day1"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day4"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/test999"/>
-<selected IMemento.internal.id="/home/ymy/workspace/python/python学习/day1/day1.py"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day6"/>
+<selected IMemento.internal.id="/home/ymy/workspace/python/python学习/day6/习题二找出文件中的title.py"/>
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.python.pydev.navigator.view" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.python.pydev.ui.PythonPerspective">
 <perspective editorAreaTrimState="0" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -216,6 +216,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二找出文件中的title.py" tooltip="python/python学习/day6/习题二找出文件中的title.py">
+<persistable path="/python/python学习/day6/习题二找出文件中的title.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题一写一个爬虫爬wenku8的网页.py" tooltip="python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py">
+<persistable path="/python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="beatuifulsoap练习2.py" tooltip="python/python学习/day6/beatuifulsoap练习2.py">
+<persistable path="/python/python学习/day6/beatuifulsoap练习2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="beatuifulsoap练习.py" tooltip="python/python学习/day6/beatuifulsoap练习.py">
+<persistable path="/python/python学习/day6/beatuifulsoap练习.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="post用户.py" tooltip="python/python学习/day6/post用户.py">
+<persistable path="/python/python学习/day6/post用户.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="requests例子.py" tooltip="python/python学习/day6/requests例子.py">
+<persistable path="/python/python学习/day6/requests例子.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="拼url.py" tooltip="python/python学习/day6/拼url.py">
+<persistable path="/python/python学习/day6/拼url.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urlparse例子2.py" tooltip="python/python学习/day6/urlparse例子2.py">
+<persistable path="/python/python学习/day6/urlparse例子2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urlparse_例子.py" tooltip="python/python学习/day6/urlparse_例子.py">
+<persistable path="/python/python学习/day6/urlparse_例子.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="day1.py" tooltip="python/python学习/day1/day1.py">
 <persistable path="/python/python学习/day1/day1.py"/>
 </file>
@@ -233,33 +260,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则练习1答案2.py" tooltip="python/python学习/day3/正则练习1答案2.py">
 <persistable path="/python/python学习/day3/正则练习1答案2.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则练习1答案.py" tooltip="python/python学习/day3/正则练习1答案.py">
-<persistable path="/python/python学习/day3/正则练习1答案.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="过滤.py" tooltip="python/python学习/过滤.py">
-<persistable path="/python/python学习/过滤.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151123获取java进程的id号.py" tooltip="python/每天一个python小程序/20151123获取java进程的id号.py">
-<persistable path="/python/每天一个python小程序/20151123获取java进程的id号.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="字符串.py" tooltip="python/python学习/day5/字符串.py">
-<persistable path="/python/python学习/day5/字符串.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="pdb用法.py" tooltip="python/python学习/day5/pdb用法.py">
-<persistable path="/python/python学习/day5/pdb用法.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="调用系统命令并返回.py" tooltip="python/python学习/day1/调用系统命令并返回.py">
-<persistable path="/python/python学习/day1/调用系统命令并返回.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="单元测试练习.py" tooltip="python/python学习/day5/单元测试练习.py">
-<persistable path="/python/python学习/day5/单元测试练习.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="单元测试例子.py" tooltip="python/python学习/day5/单元测试例子.py">
-<persistable path="/python/python学习/day5/单元测试例子.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="用hashlib对某目录下所有文件计算hash.py" tooltip="python/python学习/day5/用hashlib对某目录下所有文件计算hash.py">
-<persistable path="/python/python学习/day5/用hashlib对某目录下所有文件计算hash.py"/>
 </file>
 </mruList>
 </workbench>

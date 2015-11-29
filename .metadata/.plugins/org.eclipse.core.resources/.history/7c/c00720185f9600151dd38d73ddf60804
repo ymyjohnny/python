@@ -1,0 +1,25 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-29
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+#找出bs文档中制定代码段
+#bs4需要另外安装 /home/ymy/python/uplooking/python-bs4_4.3.2-2_all.deb 包
+
+from bs4 import BeautifulSoup
+
+f = open('/home/ymy/python/uplooking/beautifulsoup-doc.html')
+
+soup = BeautifulSoup(f.read())
+#print soup
+
+a_string = soup.finda_all('a')
+
+print a_string
+
+
+

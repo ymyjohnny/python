@@ -1,0 +1,17 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-27
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+import pymongo
+
+
+mongoclient = pymongo.MongoClient('221.228.230.172', 27018)
+db = mongoclient.hostbase
+
+dict = db.info.find()
+print dict

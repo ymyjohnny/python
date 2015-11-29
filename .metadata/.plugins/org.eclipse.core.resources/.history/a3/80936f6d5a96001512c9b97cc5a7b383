@@ -1,0 +1,11 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-11-29
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+#找出chardet.html中的a标签
+

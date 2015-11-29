@@ -28,7 +28,8 @@ def print_base(row,keys):
 
 def main():
     row  = get_mongo(conn)
-    print_base(row,keys)
+    for k in keys:
+        print k
     
 if __name__ == '__main__':
     main()        
