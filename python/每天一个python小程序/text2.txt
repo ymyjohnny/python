@@ -1,0 +1,331 @@
+# async http server configuration
+# port of async http server
+async-http-server.port = 9840
+
+# socket timeout of async http server in milli-seconds
+async-http-server.socketTimeOut = 3600000
+
+# socket keep alive of async http server
+async-http-server.socketKeepAlive = true
+
+# socket buffer size of async http server in bytes
+async-http-server.socketBufferSize = 8192
+
+# tcp no delay of async http server
+async-http-server.tcpNoDelay = true
+
+# number of io threads of async http server
+async-http-server.numIOThreads = 150
+
+# handler pattern of async http server
+async-http-server.handlerPattern = *
+
+# name of connection reuse strategy
+async-http-server.connectionReuseStrategyName = org.apache.http.impl.DefaultConnectionReuseStrategy
+
+# name of request handler
+async-http-server.requestHandlerName = com.adsame.rtb.rtbbidder.BidderRequestHandler
+
+# logs connection message or not
+async-http-server.logsConnectionInfo = true
+
+# bidder request handler configuration
+# name of data set client
+bidder-request-handler.dataSetClientName = com.adsame.rtb.lib.dataset.client.impl.CachedDataSetClient
+
+# factory of bidder
+bidder-request-handler.bidderFactory = com.adsame.rtb.rtbbidder.factory.BaiduFactory
+
+# name of staged strategy
+bidder-request-handler.strategyName = com.adsame.rtb.rtbbidder.strategy.staged.smartbid.SmartStagedStrategy
+#bidder-request-handler.strategyName = com.adsame.rtb.rtbbidder.strategy.empty.EmptyStrategy
+
+# flag of web visit logging
+bidder-request-handler.visitLoggingFlag = true
+
+# flag of demographic logging
+bidder-request-handler.DemographicLoggingFlag = true
+
+# bidder-request
+bidder-request-handler.topic = bidder-request-send-topic
+
+bidder-request-handler.kafkaProducerConfigFileLink = ./request_send_kafka.config
+
+# cached data set client configuration
+# name of wrapped client
+cached-data-set-client.wrappedClientName = com.adsame.rtb.lib.dataset.client.impl.DatabaseDataSetClient
+
+# refresh interval of cache in milli-seconds
+cached-data-set-client.refreshInterval = 6000
+
+# database data set client configuration
+# host of data set server
+database-data-set-client.host = mysqlslave192.adsame.com
+
+# port of data set server
+database-data-set-client.port = 3306
+
+# database name of data set server
+database-data-set-client.database = dsp_test
+
+# username of data set server
+database-data-set-client.username = bidder
+
+# password of data set server
+database-data-set-client.password = n2dEN2eb13e#n
+
+# table name list
+database-data-set-client.tableNameList = virtual_baidu_solution_view
+
+# record processor name list
+database-data-set-client.recordProcessorNameList = com.adsame.rtb.rtbbidder.baidu.dataset.BaiduSolutionRecord$Processor
+
+# data set processor name
+database-data-set-client.dataSetProcessorName = com.adsame.rtb.rtbbidder.dataset.CommonDataSetProcessor
+
+# naive staged strategy configuration
+# name of cookie manager client
+staged-strategy.cookieManagerClientName = com.adsame.rtb.lib.cookiemanager.client.impl.SocketCookieManagerClient
+
+staged-strategy.isCookieManagerAccess = false
+# abstract staged strategy configuration
+# ip location service host
+staged-strategy.ipLocationServiceHost = mysqlslave192.adsame.com
+
+# ip location service port
+staged-strategy.ipLocationServicePort = 3306
+
+# ip location service username
+staged-strategy.ipLocationServiceUsername = bidder
+
+# ip location service password
+staged-strategy.ipLocationServicePassword = n2dEN2eb13e#n
+
+# ip location service database
+staged-strategy.ipLocationServiceDatabase = advisual
+
+# ip location service table
+staged-strategy.ipLocationServiceTable = _ip
+
+# random price
+staged-strategy.rouletteWheelSelection = true
+
+
+# retargeting server client config file link
+staged-strategy.retargetingServerClientConfigFileLink = ./retargeting-server-client.config
+
+# frequency capper client config file link
+staged-strategy.frequencyCapperClientConfigFileLink = ./frequency-capper-client.config
+
+# win notice url
+staged-strategy.winNoticeURL = http://mbidder.adsame.com
+
+# extension
+staged-strategy.extension = solutionID=${AUCTION_SOLUTION_ID}&baidu_user_id=${AUCTION_BAIDU_USER_ID}&win_data=${WIN_DATA}
+
+# forbidden content label file link
+#baidu-filter.forbiddenSiteCategoryFileLink = strategy-data/forbidden-site-category.txt
+baidu-filter.forbiddenLandingPageFileLink = strategy-data/publisher_excluded_landing_page_url.txt
+
+# ctr client config file link
+staged-strategy.ctrClientConfigFileLink = ./ctr-client.config
+
+staged-strategy.priceTotalCount = 300
+
+# socket cookie manager client configuration
+# host of socket cookie manager
+socket-cookie-manager-client.hostListConfigFileLink = ./server.list
+
+# server host count of cookie manager
+socket-cookie-manager-client.serverHostCount = 5
+
+# port of socket cookie manager
+socket-cookie-manager-client.topicPort = 1084
+
+# port of socket cookie manager
+socket-cookie-manager-client.cookiePort = 1087
+
+# timeout of socket cookie manager in milli-seconds
+socket-cookie-manager-client.timeout = 20
+
+# service id of user id entry update
+socket-cookie-manager-client.updateUserIDEntrySID = 180
+
+# service id of topic vector retrieval
+socket-cookie-manager-client.retrieveTopicVectorSID = 271
+
+# service id of adsame cookieID retrieval
+socket-cookie-manager-client.retrieveAdsameCookieSID = 183
+
+
+# statistic writer configuration
+# statistic config file link
+statistic-writer.statisticDatabaseConfigFileLink = ./statistic-database-client.config
+
+
+# factory configuration
+# name of data set client
+factory.dataSetClientName = com.adsame.rtb.lib.dataset.client.impl.CachedDataSetClient
+
+# factory configuration
+# schema data set config file link
+factory.schemaDataSetConfigFileLink = ./schema-data-set-client.config
+
+
+# caching bidding collector configuration
+# name of data cache
+factory.dataCacheName = com.adsame.rtb.rtbbidder.datacache.ReportDataCache
+
+# expire in milli-seconds
+factory.expireInMilli = 900000
+
+factory.isLogShowClick = true
+
+factory.useCompleteLog = false
+
+factory.logProbility = 1.0
+# report data cache configuration
+
+report-data-cache.isKafkaDirectly = true
+
+# report topic
+report-data-cache.topic = kafka-directly-bidder-report-topic
+
+# name of wrapped data cache
+report-data-cache.wrappedDataCache = com.adsame.rtb.lib.datacache.AsyncDataCache
+
+
+# async data cache configuration
+# executor thread pool size
+async-data-cache.executorPoolSize = 16
+
+# name of wrapped data cache
+async-data-cache.wrappedDataCache = com.adsame.rtb.lib.datacache.RedisBasedDataCache
+
+
+# kafka producer configuration
+# kafka brokeList
+kafka-producer.brokeList = 192.168.32.2:9092,192.168.32.3:9092,192.168.32.9:9092
+
+# number of producers
+kafka-producer.numProducers = 3
+
+# producer send type
+kafka-producer.producerType = async
+
+# request required acks
+kafka-producer.requiredAcks = 1
+
+# queue buffering max milliseconds
+kafka-producer.bufferingMaxTime = 1000
+
+# queue buffering max messages
+kafka-producer.bufferingMaxMessages = 1000000
+
+# batch num messages
+kafka-producer.batchNumMessages = 100
+ 
+
+# redis data set updater configuration
+# redis hosts
+redis-based-data-cache.redisHosts = 192.168.32.44:6376 | 192.168.32.44:6377 | 192.168.32.44:6378 | 192.168.32.44:6379
+
+# redis connect pool size
+redis-based-data-cache.poolSize = 2048
+
+# redis connect timeout
+redis-based-data-cache.timeout = 60000
+
+# key prefix
+redis-based-data-cache.keyPrefix = data
+
+# default expires time
+redis-based-data-cache.defaultExpireTime = 60000
+
+
+# smart strategy core configuration
+# price explorer name
+smart-strategy-core.priceExplorerName = com.adsame.rtb.rtbbidder.strategy.staged.smartbid.priceexplorer.rand.RandomPriceExplorer
+
+# price explorer config file link
+smart-strategy-core.priceExplorerFileLink = ./smartconfig/price-explorer.config
+
+# click explorer name
+smart-strategy-core.clickExplorerName = com.adsame.rtb.rtbbidder.strategy.staged.smartbid.clickexplorer.rand.RandomClickExplorer
+
+# click explorer config file link
+smart-strategy-core.clickExplorerFileLink = ./smartconfig/click-explorer.config
+
+# ctr predictor name
+smart-strategy-core.ctrPredictorName = com.adsame.rtb.smartbid.ctr.ThriftCTRPredictor
+
+# ctr predictor config file link
+smart-strategy-core.ctrPredictorFileLink = ./smartconfig/ctr-predictor.config
+
+# win price predictor name
+smart-strategy-core.winPricePredictorName = com.adsame.rtb.winpricedist.predictor.AggregatedWinPriceDistPredictor
+
+# win price predictor config file link
+smart-strategy-core.winPricePredictorFileLink = ./smartconfig/aggregated-win-price-dist-predictor.config
+
+# dual predictor name
+smart-strategy-core.dualPredictorName = com.adsame.rtb.duallearner.predictor.DataSetDualPredictor
+
+# dual predictor config file link
+smart-strategy-core.dualPredictorFileLink = ./smartconfig/dual-predictor.config
+
+# impression collector name
+smart-strategy-core.impressionCollectorName = com.adsame.rtb.duallearner.collector.SamplingImpressionCollector
+
+# dual predictor config file link
+smart-strategy-core.impressionCollectorFileLink = ./smartconfig/impression-collector.config
+
+# traffic collector name
+smart-strategy-core.trafficFeedName = com.adsame.rtb.traffic.collector.AggregatedTrafficFeed
+
+# dual predictor config file link
+smart-strategy-core.trafficFeedFileLink = ./smartconfig/traffic-feed.config
+
+# smart dataset client name
+smart-strategy-core.smartDataSetClientName = com.adsame.rtb.lib.dataset.client.impl.CachedDataSetClient
+
+# smart dataset client config file link
+smart-strategy-core.smartDataSetClientFileLink = ./smartconfig/smart-data-set-client.config
+
+# show click count dataset client name
+smart-strategy-core.statsDataSetClientName = com.adsame.rtb.lib.dataset.client.impl.CachedDataSetClient
+
+# show click count dataset client config file link
+smart-strategy-core.statsDataSetClientLink = ./smartconfig/cached-stats-data-set-client.config
+
+# budget pacing plan generator name
+smart-strategy-core.budgetPacingPlanGeneratorName = com.adsame.rtb.smartbid.pacingplan.CachedPacingPlanGenerator
+
+# budget pacing plan generator config file link
+smart-strategy-core.budgetPacingPlanGeneratorFileLink = ./smartconfig/cached-budget-pacing-plan-generator.config
+
+
+# pacing plan generator name
+smart-strategy-core.pacingPlanGeneratorName = com.adsame.rtb.smartbid.pacingplan.CachedPacingPlanGenerator
+
+# pacing plan generator config file link
+smart-strategy-core.pacingPlanGeneratorFileLink = ./smartconfig/cached-pacing-plan-generator.config
+
+# name of cpc capper
+smart-strategy-core.cpcCapperName = com.adsame.rtb.smartbid.dailypacing.capper.NaiveCpcCapper
+
+# cpc capper config file
+smart-strategy-core.cpcCapperConfig = ./smartconfig/naive-cpc-capper.config
+
+# baidu public filter
+baidu-factory.baiduAdSlotDataSetConfigFileLink = ./baidu-public-filter.config
+
+# preferred handler name
+smart-strategy-core.preferredHandlerName = com.adsame.rtb.rtbbidder.strategy.staged.smartbid.preferred.handler.rand.RandomPreferredHandler
+
+# # preferred handler config file link
+smart-strategy-core.preferredHandlerFileLink = ./smartconfig/random-preferred-handler.config
+
+# raw context builder config file
+smart-strategy-core.rawContextBuilderConfig = ./smartconfig/raw-context-builder.config
+
