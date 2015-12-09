@@ -1,0 +1,26 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-12-8
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+import pymongo
+
+
+ip = '221.228.228.74'
+
+def mongo_getstat(ip):
+    mongoclient = pymongo.MongoClient( ip, 27018)
+    client=pymongo.MongoClient(ip,27018)
+    db=client.gdb
+    conn=db.daily_sum.find()
+
+    yield conn
+    
+def main():
+    for row in mongo_getstat(ip):
+        print row
+
+if __name__ == '__main__':
+    main()

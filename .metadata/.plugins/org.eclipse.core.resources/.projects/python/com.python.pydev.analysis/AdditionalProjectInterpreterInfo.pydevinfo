@@ -1,22 +1,59 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/ymy/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/python/com.python.pydev.analysis/v2_indexcache
-python学习.day6.习题一写一个爬虫爬wenku8的网页|1448805438000000000|/home/ymy/workspace/python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py
-python学习.day6.练习爬小说|1448806391000000000|/home/ymy/workspace/python/python学习/day6/练习爬小说.py
-每天一个python小程序.爬wenku8的小说并输出到txt文件|1448806435000000000|/home/ymy/workspace/python/每天一个python小程序/爬wenku8的小说并输出到txt文件.py
+每天一个python小程序.20151126获取服务器基础信息|1448593885000000000|/home/ymy/workspace/python/每天一个python小程序/20151126获取服务器基础信息.py
+每天一个python小程序.20151125读取json格式文件并写入mongodb|1448593718000000000|/home/ymy/workspace/python/每天一个python小程序/20151125读取json格式文件并写入mongodb.py
 -- END DISKCACHE
 -- START DICTIONARY
-3
-1=python学习.day6.习题一写一个爬虫爬wenku8的网页
-3=python学习.day6.练习爬小说
-2=每天一个python小程序.爬wenku8的小说并输出到txt文件
+2
+2=每天一个python小程序.20151126获取服务器基础信息
+1=每天一个python小程序.20151125读取json格式文件并写入mongodb
 -- END DICTIONARY
 -- START TREE 1
-3
-dow|3|download!10@download!18@download!26@
-mai|3|main!26@main!18@main!10@
-par|3|parse_index!18@parse_index!26@parse_index!10@
+31
+all|0|
+app|0|
+bas|0|
+cho|0|
+con|1|config!11@
+dat|0|
+db|2|db!11@db!19@
+deb|0|
+dic|1|dict!19@
+dow|0|
+f|2|f!11@f!19@
+get|0|
+ins|0|
+ip|0|
+key|0|
+lan|0|
+mai|0|
+mid|0|
+mon|2|mongoclient!11@mongoclient!19@
+par|0|
+pri|0|
+que|0|
+roo|0|
+sec|0|
+ser|1|serverinfo!19@
+sta|0|
+tem|0|
+tim|0|
+url|0|
+use|0|
+wsg|0|
 -- END TREE
 -- START TREE 2
-0
+11
+cho|0|
+dat|0|
+ext|0|
+fie|0|
+inl|0|
+lis|0|
+mod|0|
+pub|0|
+que|0|
+sea|0|
+vot|0|
 -- END TREE

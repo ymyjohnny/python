@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="715" maximized="true" width="1018" x="0" y="0">
 <fastViewData fastViewLocation="1024">
@@ -23,7 +23,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -32,10 +32,31 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.python.pydev.editor.PythonEditor" name="20151203diff.py" partName="20151203diff" path="/home/ymy/workspace/python/每天一个python小程序/20151203diff.py" title="20151203diff" tooltip="python/每天一个python小程序/20151203diff.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/每天一个python小程序/20151203diff.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="models.py" partName="models" path="/home/ymy/workspace/python/django/ymytest/polls/models.py" title="models" tooltip="python/django/ymytest/polls/models.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/django/ymytest/polls/models.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="sysargv作用.py" partName="sysargv作用" path="/home/ymy/workspace/python/python学习/day2/sysargv作用.py" title="sysargv作用" tooltip="python/python学习/day2/sysargv作用.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day2/sysargv作用.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="18" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="admin.py" partName="admin" path="/home/ymy/workspace/python/django/ymytest/polls/admin.py" title="admin" tooltip="python/django/ymytest/polls/admin.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/django/ymytest/polls/admin.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1175" selectionTopPixel="400"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
@@ -44,15 +65,19 @@
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/home/ymy/workspace/python"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/django"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/django/ymytest"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/django/ymytest/polls"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/django/ymytest/ymytest"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day1"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day4"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day6"/>
-<selected IMemento.internal.id="/home/ymy/workspace/python/python学习/day6/习题二找出文件中的title.py"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day2"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/范例"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序"/>
+<selected IMemento.internal.id="/home/ymy/workspace/python/django/ymytest/polls/admin.py"/>
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
 <perspective editorAreaTrimState="0" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -198,7 +223,93 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151203diff.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151127从mongo读取服务器基础信息.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/models.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day2/sysargv作用.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/admin.py"/>
+</editors>
+<item historyLabel="20151203diff" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20151127从mongo读取服务器基础信息" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="20151127从mongo读取服务器基础信息" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="20151203diff" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="20151203diff" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="20151203diff" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="sysargv作用" index="3">
+<position info="not_deleted" x="18" y="13"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="admin" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="admin" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="models" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="admin" index="4">
+<position info="not_deleted" x="902" y="0"/>
+</item>
+<item historyLabel="admin" index="4">
+<position/>
+</item>
+<item historyLabel="admin" index="4">
+<position/>
+</item>
+<item historyLabel="admin" index="4">
+<position/>
+</item>
+<item historyLabel="admin" index="4">
+<position/>
+</item>
+<item historyLabel="admin" index="4">
+<position/>
+</item>
+<item historyLabel="admin" index="4">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="admin" index="4">
+<position/>
+</item>
+<item historyLabel="admin" index="4">
+<position info="not_deleted" x="789" y="0"/>
+</item>
+<item active="true" historyLabel="admin" index="4">
+<position info="not_deleted" x="1175" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -216,11 +327,41 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二找出文件中的title.py" tooltip="python/python学习/day6/习题二找出文件中的title.py">
-<persistable path="/python/python学习/day6/习题二找出文件中的title.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="admin.py" tooltip="python/django/ymytest/polls/admin.py">
+<persistable path="/python/django/ymytest/polls/admin.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="sysargv作用.py" tooltip="python/python学习/day2/sysargv作用.py">
+<persistable path="/python/python学习/day2/sysargv作用.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="models.py" tooltip="python/django/ymytest/polls/models.py">
+<persistable path="/python/django/ymytest/polls/models.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151127从mongo读取服务器基础信息.py" tooltip="python/每天一个python小程序/20151127从mongo读取服务器基础信息.py">
+<persistable path="/python/每天一个python小程序/20151127从mongo读取服务器基础信息.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151203diff.py" tooltip="python/每天一个python小程序/20151203diff.py">
+<persistable path="/python/每天一个python小程序/20151203diff.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151128发邮件.py" tooltip="python/每天一个python小程序/20151128发邮件.py">
+<persistable path="/python/每天一个python小程序/20151128发邮件.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="发邮件.py" tooltip="python/范例/发邮件.py">
+<persistable path="/python/范例/发邮件.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="README.md" tooltip="python/每天一个python小程序/README.md">
+<persistable path="/python/每天一个python小程序/README.md"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="爬wenku8的小说并输出到txt文件.py" tooltip="python/每天一个python小程序/爬wenku8的小说并输出到txt文件.py">
+<persistable path="/python/每天一个python小程序/爬wenku8的小说并输出到txt文件.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="练习爬小说.py" tooltip="python/python学习/day6/练习爬小说.py">
+<persistable path="/python/python学习/day6/练习爬小说.py"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题一写一个爬虫爬wenku8的网页.py" tooltip="python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py">
 <persistable path="/python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二找出文件中的title.py" tooltip="python/python学习/day6/习题二找出文件中的title.py">
+<persistable path="/python/python学习/day6/习题二找出文件中的title.py"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="beatuifulsoap练习2.py" tooltip="python/python学习/day6/beatuifulsoap练习2.py">
 <persistable path="/python/python学习/day6/beatuifulsoap练习2.py"/>
@@ -230,36 +371,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="post用户.py" tooltip="python/python学习/day6/post用户.py">
 <persistable path="/python/python学习/day6/post用户.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="requests例子.py" tooltip="python/python学习/day6/requests例子.py">
-<persistable path="/python/python学习/day6/requests例子.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="拼url.py" tooltip="python/python学习/day6/拼url.py">
-<persistable path="/python/python学习/day6/拼url.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urlparse例子2.py" tooltip="python/python学习/day6/urlparse例子2.py">
-<persistable path="/python/python学习/day6/urlparse例子2.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urlparse_例子.py" tooltip="python/python学习/day6/urlparse_例子.py">
-<persistable path="/python/python学习/day6/urlparse_例子.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="day1.py" tooltip="python/python学习/day1/day1.py">
-<persistable path="/python/python学习/day1/day1.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="python/python学习/day1/test.py">
-<persistable path="/python/python学习/day1/test.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="avg.py" tooltip="python/python学习/day3/avg.py">
-<persistable path="/python/python学习/day3/avg.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="system.py" tooltip="python/python学习/system.py">
-<persistable path="/python/python学习/system.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="python/python学习/day5/test.py">
-<persistable path="/python/python学习/day5/test.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="正则练习1答案2.py" tooltip="python/python学习/day3/正则练习1答案2.py">
-<persistable path="/python/python学习/day3/正则练习1答案2.py"/>
 </file>
 </mruList>
 </workbench>

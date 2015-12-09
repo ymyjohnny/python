@@ -1,1 +1,16 @@
 MODULES_MANAGER_V2
+django.ymytest.manage|/home/ymy/workspace/python/django/ymytest/manage.py
+django.ymytest.polls.__init__|/home/ymy/workspace/python/django/ymytest/polls/__init__.py
+django.ymytest.polls.admin|/home/ymy/workspace/python/django/ymytest/polls/admin.py
+django.ymytest.polls.migrations.__init__|/home/ymy/workspace/python/django/ymytest/polls/migrations/__init__.py
+django.ymytest.polls.models|/home/ymy/workspace/python/django/ymytest/polls/models.py
+django.ymytest.polls.tests|/home/ymy/workspace/python/django/ymytest/polls/tests.py
+django.ymytest.polls.views|/home/ymy/workspace/python/django/ymytest/polls/views.py
+django.ymytest.ymytest.__init__|/home/ymy/workspace/python/django/ymytest/ymytest/__init__.py
+django.ymytest.ymytest.settings|/home/ymy/workspace/python/django/ymytest/ymytest/settings.py
+django.ymytest.ymytest.urls|/home/ymy/workspace/python/django/ymytest/ymytest/urls.py
+django.ymytest.ymytest.wsgi|/home/ymy/workspace/python/django/ymytest/ymytest/wsgi.py
+每天一个python小程序.20151127从mongo读取服务器基础信息|/home/ymy/workspace/python/每天一个python小程序/20151127从mongo读取服务器基础信息.py
+每天一个python小程序.20151129爬wenku8的小说并输出到txt文件|/home/ymy/workspace/python/每天一个python小程序/20151129爬wenku8的小说并输出到txt文件.py
+每天一个python小程序.20151130爬动漫之家的漫画|/home/ymy/workspace/python/每天一个python小程序/20151130爬动漫之家的漫画.py
+每天一个python小程序.20151203diff|/home/ymy/workspace/python/每天一个python小程序/20151203diff.py

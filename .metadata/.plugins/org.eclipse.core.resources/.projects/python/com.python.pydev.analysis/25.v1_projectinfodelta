@@ -1,1 +1,7 @@
-DELSTR每天一个python小程序.20151125读取json格式文件并写入mongodb
+INSTUP每天一个python小程序.20151208查询mongo服务状态
+/home/ymy/workspace/python/每天一个python小程序/20151208查询mongo服务状态.py
+INFOS:&&3|1|2|0&&2|3|2|0&&2|4|2|0
+mongo_getstat=3
+每天一个python小程序.20151208查询mongo服务状态=2
+main=4
+ip=1

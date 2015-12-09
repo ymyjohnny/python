@@ -1,0 +1,23 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-12-8
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+import pymongo
+
+
+ip = '221.228.230.140'
+
+def mongo_getstat(ip):
+    yield  pymongo.MongoClient( ip, 27017).server_info()
+
+    
+def main():
+    item = mongo_getstat(ip)
+    for k,v in item:
+        print k + ":" + v
+
+if __name__ == '__main__':
+    main()
