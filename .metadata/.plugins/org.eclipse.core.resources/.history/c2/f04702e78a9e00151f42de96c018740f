@@ -1,0 +1,23 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-12-9
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+import filecmp
+import sys
+
+try:
+    dir1 = sys.argv[1]
+    dir2 = sys.argv[2]
+except:
+    print 'Please input  diffdir.py dir1 dir2'
+    sys.exit()
+
+dirobject = filecmp.dircmp(dir1,dir2)
+#dirobject.report()
+#dirobject.report_partial_closure()
+dirobject.report_full_closure()

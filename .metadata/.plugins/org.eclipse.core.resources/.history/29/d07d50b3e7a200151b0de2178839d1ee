@@ -1,0 +1,11 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-12-15
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+import MySQLdb
+conn=MySQLdb.connect(host="localhost",user="root",passwd="sa",db="mytable")

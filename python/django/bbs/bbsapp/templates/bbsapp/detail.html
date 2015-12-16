@@ -1,0 +1,6 @@
+<h1>{{ question.question_text }}</h1>
+<ul>
+{% for answer in question.answer_set.all %}
+    <li>第{{answer.id}}楼 {{ answer.answer_text }}</li>
+{% endfor %}
+</ul>

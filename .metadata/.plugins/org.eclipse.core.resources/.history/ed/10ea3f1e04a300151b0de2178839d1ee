@@ -1,0 +1,59 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-12-15
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+import MySQLdb,pymongo
+import datetime
+
+
+#.strftime("%Y-%m-%d")
+#datetime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#print datetime
+
+def mysql_value(date):
+    conn=MySQLdb.connect(host="221.228.228.4",user="ymy",passwd="uqcqa8zd",db="dsp_test")
+    cursor = conn.cursor ()
+    #打印多少条记录
+    count =  cursor.execute("select * from dsp_daily_solution_winnotice where time >= '%s'  "  % date )
+    #打印具体内容
+    info = cursor.fetchmany(count)
+    for i in info:
+        mysqlsid =  i[0]
+        print mysqlsid
+        #yield mysqlsid
+        #yield  i
+    cursor.close ()  
+    conn.close ()  
+#     
+#打印一行，每执行1次，会向下移一行
+#row = cursor.fetchone ()[2]
+#print row
+
+def mongo_connection_sdb(day,id):
+        client=pymongo.MongoClient('221.228.228.72',27018)
+        db=client.sdb
+        conn=db.daily_sum
+        #id = long(int(id))
+        print id
+        for i in  conn.find({"date":day,'id':id}):
+            print i
+
+
+
+    
+
+def main():
+    date = datetime.datetime.today()
+    day = datetime.datetime.today().strftime("%Y-%m-%d")
+    sid = mysql_value(date)
+    for id in sid:
+        print id
+        #mongo_connection_sdb(day,id)
+    
+
+if __name__ == '__main__':
+    main()

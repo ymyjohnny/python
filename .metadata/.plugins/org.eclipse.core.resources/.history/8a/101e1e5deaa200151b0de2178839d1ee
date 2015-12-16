@@ -1,0 +1,17 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2015-12-15
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+import MySQLdb
+conn=MySQLdb.connect(host="221.228.228.4",user="ymy",passwd="uqcqa8zd",db="dsp_test")
+cursor = conn.cursor ()
+cursor.execute ("SELECT VERSION()")
+row = cursor.fetchone ()
+print "MySQL server version:", row[0]  
+cursor.close ()  
+conn.close ()  
