@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="42" version="2.0">
 <workbenchAdvisor/>
 <window height="715" maximized="true" width="1018" x="0" y="0">
 <fastViewData fastViewLocation="1024">
@@ -41,21 +41,21 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="20151203diff.py" partName="20151203diff" path="/home/ymy/workspace/python/每天一个python小程序/20151203diff.py" title="20151203diff" tooltip="python/每天一个python小程序/20151203diff.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/每天一个python小程序/20151203diff.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="图片上输出文字.py" partName="图片上输出文字" path="/home/ymy/workspace/python/python学习/day9/图片上输出文字.py" title="图片上输出文字" tooltip="python/python学习/day9/图片上输出文字.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/图片上输出文字.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="72" selectionOffset="163" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="models.py" partName="models" path="/home/ymy/workspace/python/django/ymytest/polls/models.py" title="models" tooltip="python/django/ymytest/polls/models.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/django/ymytest/polls/models.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="图片上输出多行文字.py" partName="图片上输出多行文字" path="/home/ymy/workspace/python/python学习/day9/图片上输出多行文字.py" title="图片上输出多行文字" tooltip="python/python学习/day9/图片上输出多行文字.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/图片上输出多行文字.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="399" selectionTopPixel="359"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="sysargv作用.py" partName="sysargv作用" path="/home/ymy/workspace/python/python学习/day2/sysargv作用.py" title="sysargv作用" tooltip="python/python学习/day2/sysargv作用.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day2/sysargv作用.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="18" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="pandas处理日志.py" partName="pandas处理日志" path="/home/ymy/workspace/python/python学习/day9/pandas处理日志.py" title="pandas处理日志" tooltip="python/python学习/day9/pandas处理日志.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/pandas处理日志.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1433" selectionTopPixel="799"/>
 </editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="admin.py" partName="admin" path="/home/ymy/workspace/python/django/ymytest/polls/admin.py" title="admin" tooltip="python/django/ymytest/polls/admin.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/django/ymytest/polls/admin.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1175" selectionTopPixel="400"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="查询ip地址的真实注册地址.py" partName="查询ip地址的真实注册地址" path="/home/ymy/workspace/python/python学习/day9/查询ip地址的真实注册地址.py" title="查询ip地址的真实注册地址" tooltip="python/python学习/day9/查询ip地址的真实注册地址.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/查询ip地址的真实注册地址.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="430" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -66,14 +66,13 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/home/ymy/workspace/python"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/django"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/django/ymytest"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/django/ymytest/polls"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/django/ymytest/ymytest"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day2"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day1"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day9"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/范例"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序"/>
-<selected IMemento.internal.id="/home/ymy/workspace/python/django/ymytest/polls/admin.py"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/脚本"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/脚本/dsp"/>
+<selected IMemento.internal.id="/home/ymy/workspace/python/脚本/dsp/checkmongowin.py"/>
 </viewState>
 </view>
 </views>
@@ -201,7 +200,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22325581" ratioLeft="288" ratioRight="1002" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.22170542" ratioLeft="286" ratioRight="1004" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.74887216" ratioLeft="498" ratioRight="167" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
@@ -225,89 +224,169 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151203diff.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151127从mongo读取服务器基础信息.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day2/sysargv作用.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/admin.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/models.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151203diff.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day2/sysargv作用.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/图片上输出文字.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/图片上输出文字.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/图片上输出多行文字.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/panda.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/pandas处理日志.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/查询ip地址的真实注册地址.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/取出chrom占用的内存总数.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/取出cpu核数.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/脚本/dsp/checkmongowin.py"/>
 </editors>
-<item historyLabel="20151203diff" index="0">
+<item historyLabel="admin" index="0">
+<position/>
+</item>
+<item historyLabel="admin" index="0">
+<position/>
+</item>
+<item historyLabel="admin" index="0">
+<position/>
+</item>
+<item historyLabel="admin" index="0">
+<position/>
+</item>
+<item historyLabel="admin" index="0">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="admin" index="0">
+<position/>
+</item>
+<item historyLabel="admin" index="0">
+<position info="not_deleted" x="789" y="0"/>
+</item>
+<item historyLabel="admin" index="0">
+<position info="not_deleted" x="1175" y="0"/>
+</item>
+<item historyLabel="models" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="20151127从mongo读取服务器基础信息" index="1">
-<position info="not_deleted" x="512" y="0"/>
-</item>
-<item historyLabel="models" index="2">
-<position info="not_deleted" x="391" y="0"/>
-</item>
-<item historyLabel="20151127从mongo读取服务器基础信息" index="1">
-<position info="not_deleted" x="512" y="0"/>
-</item>
-<item historyLabel="models" index="2">
-<position info="not_deleted" x="391" y="0"/>
-</item>
-<item historyLabel="20151203diff" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="models" index="2">
-<position info="not_deleted" x="391" y="0"/>
-</item>
-<item historyLabel="20151203diff" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="models" index="2">
-<position info="not_deleted" x="391" y="0"/>
-</item>
-<item historyLabel="20151203diff" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="models" index="2">
+<item historyLabel="20151203diff" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="sysargv作用" index="3">
 <position info="not_deleted" x="18" y="13"/>
 </item>
-<item historyLabel="models" index="2">
+<item historyLabel="20151203diff" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
+<item historyLabel="图片上输出文字" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
+<item historyLabel="图片上输出文字" index="5">
+<position info="not_deleted" x="499" y="0"/>
+</item>
+<item historyLabel="图片上输出多行文字" index="6">
+<position info="not_deleted" x="1137" y="0"/>
+</item>
+<item historyLabel="图片上输出文字" index="5">
+<position info="not_deleted" x="17" y="14"/>
+</item>
+<item historyLabel="图片上输出多行文字" index="6">
+<position info="not_deleted" x="1137" y="0"/>
+</item>
+<item historyLabel="图片上输出文字" index="5">
+<position info="not_deleted" x="17" y="14"/>
+</item>
+<item historyLabel="图片上输出多行文字" index="6">
+<position info="not_deleted" x="1137" y="0"/>
+</item>
+<item historyLabel="图片上输出文字" index="5">
+<position info="not_deleted" x="17" y="14"/>
+</item>
+<item historyLabel="图片上输出多行文字" index="6">
+<position info="not_deleted" x="765" y="0"/>
+</item>
+<item historyLabel="图片上输出文字" index="5">
+<position info="not_deleted" x="163" y="72"/>
+</item>
+<item historyLabel="图片上输出多行文字" index="6">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="panda" index="7">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="pandas处理日志" index="8">
+<position info="not_deleted" x="1433" y="0"/>
+</item>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="取出chrom占用的内存总数" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="models" index="2">
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="取出cpu核数" index="11">
+<position info="not_deleted" x="78" y="46"/>
+</item>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="207" y="0"/>
+</item>
+<item historyLabel="checkmongowin" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position info="not_deleted" x="902" y="0"/>
+<item historyLabel="取出cpu核数" index="11">
+<position info="not_deleted" x="78" y="46"/>
 </item>
-<item historyLabel="admin" index="4">
-<position/>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="225" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position/>
+<item historyLabel="取出cpu核数" index="11">
+<position info="not_deleted" x="78" y="46"/>
 </item>
-<item historyLabel="admin" index="4">
-<position/>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="225" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position/>
+<item historyLabel="checkmongowin" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position/>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="225" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="checkmongowin" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position/>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="225" y="0"/>
 </item>
-<item historyLabel="admin" index="4">
-<position info="not_deleted" x="789" y="0"/>
+<item historyLabel="pandas处理日志" index="8">
+<position info="not_deleted" x="1433" y="0"/>
 </item>
-<item active="true" historyLabel="admin" index="4">
-<position info="not_deleted" x="1175" y="0"/>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="225" y="0"/>
+</item>
+<item historyLabel="checkmongowin" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="checkmongowin" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="checkmongowin" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="checkmongowin" index="12">
+<position info="not_deleted" x="822" y="0"/>
+</item>
+<item historyLabel="查询ip地址的真实注册地址" index="9">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item active="true" historyLabel="pandas处理日志" index="8">
+<position info="not_deleted" x="1433" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -327,6 +406,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="checkmongowin.py" tooltip="python/脚本/dsp/checkmongowin.py">
+<persistable path="/python/脚本/dsp/checkmongowin.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="取出cpu核数.py" tooltip="python/python学习/day1/取出cpu核数.py">
+<persistable path="/python/python学习/day1/取出cpu核数.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="取出chrom占用的内存总数.py" tooltip="python/python学习/day1/取出chrom占用的内存总数.py">
+<persistable path="/python/python学习/day1/取出chrom占用的内存总数.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="查询ip地址的真实注册地址.py" tooltip="python/python学习/day9/查询ip地址的真实注册地址.py">
+<persistable path="/python/python学习/day9/查询ip地址的真实注册地址.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="图片上输出多行文字.py" tooltip="python/python学习/day9/图片上输出多行文字.py">
+<persistable path="/python/python学习/day9/图片上输出多行文字.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="admin.py" tooltip="python/django/ymytest/polls/admin.py">
 <persistable path="/python/django/ymytest/polls/admin.py"/>
 </file>
@@ -350,27 +444,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="README.md" tooltip="python/每天一个python小程序/README.md">
 <persistable path="/python/每天一个python小程序/README.md"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="爬wenku8的小说并输出到txt文件.py" tooltip="python/每天一个python小程序/爬wenku8的小说并输出到txt文件.py">
-<persistable path="/python/每天一个python小程序/爬wenku8的小说并输出到txt文件.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="练习爬小说.py" tooltip="python/python学习/day6/练习爬小说.py">
-<persistable path="/python/python学习/day6/练习爬小说.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题一写一个爬虫爬wenku8的网页.py" tooltip="python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py">
-<persistable path="/python/python学习/day6/习题一写一个爬虫爬wenku8的网页.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="习题二找出文件中的title.py" tooltip="python/python学习/day6/习题二找出文件中的title.py">
-<persistable path="/python/python学习/day6/习题二找出文件中的title.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="beatuifulsoap练习2.py" tooltip="python/python学习/day6/beatuifulsoap练习2.py">
-<persistable path="/python/python学习/day6/beatuifulsoap练习2.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="beatuifulsoap练习.py" tooltip="python/python学习/day6/beatuifulsoap练习.py">
-<persistable path="/python/python学习/day6/beatuifulsoap练习.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="post用户.py" tooltip="python/python学习/day6/post用户.py">
-<persistable path="/python/python学习/day6/post用户.py"/>
 </file>
 </mruList>
 </workbench>

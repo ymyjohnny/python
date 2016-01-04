@@ -1,6 +1,8 @@
 eclipse.preferences.version=1
 encoding//django/ymytest/polls/admin.py=utf-8
 encoding//django/ymytest/polls/urls.py=utf-8
+encoding//python\u5B66\u4E60/day1/\u53D6\u51FAchrom\u5360\u7528\u7684\u5185\u5B58\u603B\u6570.py=utf-8
+encoding//python\u5B66\u4E60/day1/\u53D6\u51FAcpu\u6838\u6570.py=utf-8
 encoding//python\u5B66\u4E60/day1/\u6587\u4EF6\u5904\u7406\u7EC3\u4E60\u884D\u751F.py=utf-8
 encoding//python\u5B66\u4E60/day1/\u8C03\u7528\u7CFB\u7EDF\u547D\u4EE4\u5E76\u8FD4\u56DE.py=utf-8
 encoding//python\u5B66\u4E60/day2/sysargv\u4F5C\u7528.py=utf-8
@@ -64,6 +66,10 @@ encoding//python\u5B66\u4E60/day6/\u4E60\u9898\u4E00\u5199\u4E00\u4E2A\u722C\u86
 encoding//python\u5B66\u4E60/day6/\u4E60\u9898\u4E8C\u627E\u51FA\u6587\u4EF6\u4E2D\u7684title.py=utf-8
 encoding//python\u5B66\u4E60/day6/\u62FCurl.py=utf-8
 encoding//python\u5B66\u4E60/day6/\u7EC3\u4E60\u722C\u5C0F\u8BF4.py=utf-8
+encoding//python\u5B66\u4E60/day9/pandas\u5904\u7406\u65E5\u5FD7.py=utf-8
+encoding//python\u5B66\u4E60/day9/\u56FE\u7247\u4E0A\u8F93\u51FA\u591A\u884C\u6587\u5B57.py=utf-8
+encoding//python\u5B66\u4E60/day9/\u56FE\u7247\u4E0A\u8F93\u51FA\u6587\u5B57.py=utf-8
+encoding//python\u5B66\u4E60/day9/\u67E5\u8BE2ip\u5730\u5740\u7684\u771F\u5B9E\u6CE8\u518C\u5730\u5740.py=utf-8
 encoding//python\u5B66\u4E60/\u7EC3\u4E60/\u5224\u65AD\u56DE\u6587.py=utf-8
 encoding//python\u5B66\u4E60/\u8FC7\u6EE4.py=utf-8
 encoding//\u6BCF\u5929\u4E00\u4E2Apython\u5C0F\u7A0B\u5E8F/20151123\u83B7\u53D6java\u8FDB\u7A0B\u7684id\u53F7.py=utf-8
@@ -77,4 +83,6 @@ encoding//\u6BCF\u5929\u4E00\u4E2Apython\u5C0F\u7A0B\u5E8F/20151208\u67E5\u8BE2m
 encoding//\u6BCF\u5929\u4E00\u4E2Apython\u5C0F\u7A0B\u5E8F/20151209diff.py=utf-8
 encoding//\u6BCF\u5929\u4E00\u4E2Apython\u5C0F\u7A0B\u5E8F/20151210diffdir.py=utf-8
 encoding//\u6BCF\u5929\u4E00\u4E2Apython\u5C0F\u7A0B\u5E8F/20151215mysql\u548Cmongo\u503C\u5BF9\u6BD4.py=utf-8
+encoding//\u811A\u672C/dsp/checkmongowin.py=utf-8
+encoding//\u811A\u672C/dsp/checkmongowin1.py=utf-8
 encoding//\u8303\u4F8B/\u53D1\u90AE\u4EF6.py=utf-8
