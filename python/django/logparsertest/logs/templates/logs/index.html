@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>submit file</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="shell">
+  </head>
+
+  <body>
+
+    <form action="" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <p>{{ form.non_field_errors }}</p>
+      <p>{{ form.logfile.label_tag }} {{ form.logfile.help_text }}</p>
+      <p>
+        {{ form.logfile.errors }}
+        {{ form.logfile }}
+      </p>
+      <p><input type="submit" value="Commit" /></p>
+    </form>
+
+  </body>
+</html>
+

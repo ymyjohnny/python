@@ -6,4 +6,6 @@
 			<item value="org.python.pydev.PythonCategory"/>
 		</list>
 	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
 </section>

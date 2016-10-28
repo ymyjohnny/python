@@ -1,0 +1,4 @@
+#Wed Jul 13 17:11:08 CST 2016
+__DEFAULT__=true
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true

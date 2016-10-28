@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
-<window height="715" maximized="true" width="1018" x="0" y="0">
-<fastViewData fastViewLocation="1024">
-<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
-</fastViewData>
+<window height="767" maximized="true" width="1018" x="483" y="129">
+<fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -13,71 +11,82 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="204" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.linuxtools.rpm.ui.rpmBuildMenu" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.python.pydev.toolbars.evaluateActionSetterToolbar" itemType="typeToolBarContribution" x="40" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1442385830945" focus="true" label="Workspace - PyDev">
+<page aggregateWorkingSetId="Aggregate for window 1468390089892" focus="true" label="Workspace - PyDev">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="图片上输出文字.py" partName="图片上输出文字" path="/home/ymy/workspace/python/python学习/day9/图片上输出文字.py" title="图片上输出文字" tooltip="python/python学习/day9/图片上输出文字.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/图片上输出文字.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="72" selectionOffset="163" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="图片上输出多行文字.py" partName="图片上输出多行文字" path="/home/ymy/workspace/python/python学习/day9/图片上输出多行文字.py" title="图片上输出多行文字" tooltip="python/python学习/day9/图片上输出多行文字.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/图片上输出多行文字.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="399" selectionTopPixel="359"/>
-</editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="pandas处理日志.py" partName="pandas处理日志" path="/home/ymy/workspace/python/python学习/day9/pandas处理日志.py" title="pandas处理日志" tooltip="python/python学习/day9/pandas处理日志.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/pandas处理日志.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1433" selectionTopPixel="799"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="查询ip地址的真实注册地址.py" partName="查询ip地址的真实注册地址" path="/home/ymy/workspace/python/python学习/day9/查询ip地址的真实注册地址.py" title="查询ip地址的真实注册地址" tooltip="python/python学习/day9/查询ip地址的真实注册地址.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/python学习/day9/查询ip地址的真实注册地址.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="430" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="20160714pingcheck.py" partName="20160714pingcheck" path="/home/ymy/workspace/python/每天一个python小程序/20160714pingcheck.py" title="20160714pingcheck" tooltip="python/每天一个python小程序/20160714pingcheck.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/每天一个python小程序/20160714pingcheck.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1826" selectionTopPixel="427"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="1041" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/home/ymy/workspace/python"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/django"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day1"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day9"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/范例"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/脚本"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/脚本/dsp"/>
-<selected IMemento.internal.id="/home/ymy/workspace/python/脚本/dsp/checkmongowin.py"/>
+<expanded IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序"/>
+<selected IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序/20160622mongoaddindex.py"/>
 </viewState>
 </view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="400" org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="961" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.priorityField="40" org.eclipse.ui.ide.resourceField="120"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
 </views>
-<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
-<perspective editorAreaTrimState="0" editorAreaVisible="1" fixed="0" version="0.016">
+<perspectives activePart="org.python.pydev.navigator.view" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -106,42 +115,45 @@
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.views.TaskList" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@78004daa" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b09fac1" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20281996" ratioLeft="374" ratioRight="1470" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6596386" ratioLeft="438" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="332" ratioRight="332" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
 </layout>
 </perspective>
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
-<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<descriptor descriptor="org.eclipse.pde.ui.PDEPerspective" id="&lt;Plug-in_Development&gt;" label="&lt;Plug-in Development&gt;"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
@@ -150,8 +162,89 @@
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.pde.ui.SearchActionSet"/>
+<alwaysOnActionSet id="AnyEdit.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="eclox.ui.buildActionSet"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.jdt.ui.PackagesView"/>
+<show_view_action id="org.eclipse.pde.ui.PluginsView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProjectWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewFeatureProjectWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<new_wizard_action id="org.eclipse.pde.ds.ui.wizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProductConfigurationWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProfileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.pde.ui.PluginsView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74986464" ratioLeft="1385" ratioRight="462" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24959394" ratioLeft="461" ratioRight="1386" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.74923545" ratioLeft="735" ratioRight="246" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@299b9851" ratio="0.7496393" ratioLeft="1039" ratioRight="347" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="org.eclipse.pde.ui.SearchActionSet"/>
+<alwaysOnActionSet id="AnyEdit.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="eclox.ui.buildActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
@@ -171,9 +264,8 @@
 <new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
 <new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
-<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <view id="org.python.pydev.navigator.view"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
@@ -187,31 +279,20 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@52581f9e" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
-</folder>
-</info>
-<info folder="true" part="stickyFolderRight" ratio="0.74980146" ratioLeft="944" ratioRight="315" relationship="2" relative="topLeft">
+<info folder="true" part="stickyFolderRight" ratio="0.74986464" ratioLeft="1385" ratioRight="462" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22170542" ratioLeft="286" ratioRight="1004" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.74887216" ratioLeft="498" ratioRight="167" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.2598809" ratioLeft="480" ratioRight="1367" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.74923545" ratioLeft="735" ratioRight="246" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@2274a106" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -224,169 +305,61 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/admin.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/django/ymytest/polls/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151203diff.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day2/sysargv作用.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/图片上输出文字.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/图片上输出文字.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/图片上输出多行文字.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/panda.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/pandas处理日志.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day9/查询ip地址的真实注册地址.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/取出chrom占用的内存总数.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/取出cpu核数.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/脚本/dsp/checkmongowin.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20160714pingcheck.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20160627获取mongostatus.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20160622mongo-index-check.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20160622mongoaddindex.py"/>
 </editors>
-<item historyLabel="admin" index="0">
+<item historyLabel="20160714pingcheck" index="0">
+<position info="not_deleted" x="1982" y="0"/>
+</item>
+<item historyLabel="20160627获取mongostatus" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20160714pingcheck" index="0">
+<position info="not_deleted" x="1854" y="0"/>
+</item>
+<item historyLabel="20160627获取mongostatus" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20160714pingcheck" index="0">
+<position info="not_deleted" x="1826" y="0"/>
+</item>
+<item historyLabel="20160627获取mongostatus" index="1">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="20160714pingcheck" index="0">
+<position info="not_deleted" x="1859" y="0"/>
+</item>
+<item historyLabel="20160627获取mongostatus" index="1">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="20160622mongo-index-check" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20160627获取mongostatus" index="1">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="20160622mongoaddindex" index="3">
+<position info="not_deleted" x="223" y="23"/>
+</item>
+<item historyLabel="20160627获取mongostatus" index="1">
 <position/>
 </item>
-<item historyLabel="admin" index="0">
-<position/>
-</item>
-<item historyLabel="admin" index="0">
-<position/>
-</item>
-<item historyLabel="admin" index="0">
-<position/>
-</item>
-<item historyLabel="admin" index="0">
-<position info="not_deleted" x="354" y="0"/>
-</item>
-<item historyLabel="admin" index="0">
-<position/>
-</item>
-<item historyLabel="admin" index="0">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item historyLabel="admin" index="0">
-<position info="not_deleted" x="1175" y="0"/>
-</item>
-<item historyLabel="models" index="1">
+<item historyLabel="20160622mongo-index-check" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="20151203diff" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20160622mongoaddindex" index="3">
+<position info="not_deleted" x="260" y="45"/>
 </item>
-<item historyLabel="sysargv作用" index="3">
-<position info="not_deleted" x="18" y="13"/>
+<item historyLabel="20160627获取mongostatus" index="1">
+<position info="not_deleted" x="624" y="0"/>
 </item>
-<item historyLabel="20151203diff" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20160622mongoaddindex" index="3">
+<position info="not_deleted" x="260" y="45"/>
 </item>
-<item historyLabel="图片上输出文字" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="图片上输出文字" index="5">
-<position info="not_deleted" x="499" y="0"/>
-</item>
-<item historyLabel="图片上输出多行文字" index="6">
-<position info="not_deleted" x="1137" y="0"/>
-</item>
-<item historyLabel="图片上输出文字" index="5">
-<position info="not_deleted" x="17" y="14"/>
-</item>
-<item historyLabel="图片上输出多行文字" index="6">
-<position info="not_deleted" x="1137" y="0"/>
-</item>
-<item historyLabel="图片上输出文字" index="5">
-<position info="not_deleted" x="17" y="14"/>
-</item>
-<item historyLabel="图片上输出多行文字" index="6">
-<position info="not_deleted" x="1137" y="0"/>
-</item>
-<item historyLabel="图片上输出文字" index="5">
-<position info="not_deleted" x="17" y="14"/>
-</item>
-<item historyLabel="图片上输出多行文字" index="6">
-<position info="not_deleted" x="765" y="0"/>
-</item>
-<item historyLabel="图片上输出文字" index="5">
-<position info="not_deleted" x="163" y="72"/>
-</item>
-<item historyLabel="图片上输出多行文字" index="6">
-<position info="not_deleted" x="399" y="0"/>
-</item>
-<item historyLabel="panda" index="7">
-<position info="not_deleted" x="107" y="0"/>
-</item>
-<item historyLabel="pandas处理日志" index="8">
-<position info="not_deleted" x="1433" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item historyLabel="取出chrom占用的内存总数" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item historyLabel="取出cpu核数" index="11">
-<position info="not_deleted" x="78" y="46"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="207" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="取出cpu核数" index="11">
-<position info="not_deleted" x="78" y="46"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="取出cpu核数" index="11">
-<position info="not_deleted" x="78" y="46"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="pandas处理日志" index="8">
-<position info="not_deleted" x="1433" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="12">
-<position info="not_deleted" x="822" y="0"/>
-</item>
-<item historyLabel="查询ip地址的真实注册地址" index="9">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item active="true" historyLabel="pandas处理日志" index="8">
-<position info="not_deleted" x="1433" y="0"/>
+<item active="true" historyLabel="20160714pingcheck" index="0">
+<position info="not_deleted" x="1859" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -396,7 +369,6 @@
 <trimLayout>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
-<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
@@ -406,44 +378,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="checkmongowin.py" tooltip="python/脚本/dsp/checkmongowin.py">
-<persistable path="/python/脚本/dsp/checkmongowin.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160622mongoaddindex.py" tooltip="python/每天一个python小程序/20160622mongoaddindex.py">
+<persistable path="/python/每天一个python小程序/20160622mongoaddindex.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="取出cpu核数.py" tooltip="python/python学习/day1/取出cpu核数.py">
-<persistable path="/python/python学习/day1/取出cpu核数.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160622mongo-index-check.py" tooltip="python/每天一个python小程序/20160622mongo-index-check.py">
+<persistable path="/python/每天一个python小程序/20160622mongo-index-check.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="取出chrom占用的内存总数.py" tooltip="python/python学习/day1/取出chrom占用的内存总数.py">
-<persistable path="/python/python学习/day1/取出chrom占用的内存总数.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160627获取mongostatus.py" tooltip="python/每天一个python小程序/20160627获取mongostatus.py">
+<persistable path="/python/每天一个python小程序/20160627获取mongostatus.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="查询ip地址的真实注册地址.py" tooltip="python/python学习/day9/查询ip地址的真实注册地址.py">
-<persistable path="/python/python学习/day9/查询ip地址的真实注册地址.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160714pingcheck.py" tooltip="python/每天一个python小程序/20160714pingcheck.py">
+<persistable path="/python/每天一个python小程序/20160714pingcheck.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="图片上输出多行文字.py" tooltip="python/python学习/day9/图片上输出多行文字.py">
-<persistable path="/python/python学习/day9/图片上输出多行文字.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160601redisclusterslavebehind.py" tooltip="python/每天一个python小程序/20160601redisclusterslavebehind.py">
+<persistable path="/python/每天一个python小程序/20160601redisclusterslavebehind.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="admin.py" tooltip="python/django/ymytest/polls/admin.py">
-<persistable path="/python/django/ymytest/polls/admin.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151123获取java进程的id号.py" tooltip="python/每天一个python小程序/20151123获取java进程的id号.py">
+<persistable path="/python/每天一个python小程序/20151123获取java进程的id号.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="sysargv作用.py" tooltip="python/python学习/day2/sysargv作用.py">
-<persistable path="/python/python学习/day2/sysargv作用.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="20151122grep.py" tooltip="python/每天一个python小程序/20151122grep.py">
+<persistable path="/python/每天一个python小程序/20151122grep.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="models.py" tooltip="python/django/ymytest/polls/models.py">
-<persistable path="/python/django/ymytest/polls/models.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160601redisclusterslavestatus.py" tooltip="python/每天一个python小程序/20160601redisclusterslavestatus.py">
+<persistable path="/python/每天一个python小程序/20160601redisclusterslavestatus.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151127从mongo读取服务器基础信息.py" tooltip="python/每天一个python小程序/20151127从mongo读取服务器基础信息.py">
-<persistable path="/python/每天一个python小程序/20151127从mongo读取服务器基础信息.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="123.py" tooltip="python/test111/123.py">
+<persistable path="/python/test111/123.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151203diff.py" tooltip="python/每天一个python小程序/20151203diff.py">
-<persistable path="/python/每天一个python小程序/20151203diff.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="1111.py" tooltip="python/test111/1111.py">
+<persistable path="/python/test111/1111.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151128发邮件.py" tooltip="python/每天一个python小程序/20151128发邮件.py">
-<persistable path="/python/每天一个python小程序/20151128发邮件.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="222.py" tooltip="python/test111/222.py">
+<persistable path="/python/test111/222.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="发邮件.py" tooltip="python/范例/发邮件.py">
-<persistable path="/python/范例/发邮件.py"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151129爬wenku8的小说并输出到txt文件.py" tooltip="python/每天一个python小程序/20151129爬wenku8的小说并输出到txt文件.py">
+<persistable path="/python/每天一个python小程序/20151129爬wenku8的小说并输出到txt文件.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="README.md" tooltip="python/每天一个python小程序/README.md">
-<persistable path="/python/每天一个python小程序/README.md"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="111.py" tooltip="python/test111/111.py">
+<persistable path="/python/test111/111.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="python/test111/test.py">
+<persistable path="/python/test111/test.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="day1.py" tooltip="python/python学习/day1/day1.py">
+<persistable path="/python/python学习/day1/day1.py"/>
 </file>
 </mruList>
 </workbench>

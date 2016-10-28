@@ -1,9 +1,0 @@
-#!/usr/bin/python
-#coding=utf-8
-'''
-Created on 2015-10-29
-@author: ymy
-'''
-
-
-i = raw_input('number  is %s '    % txt)

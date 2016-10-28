@@ -1,9 +1,9 @@
-INSTUP每天一个python小程序.20151215mysql和mongo值对比
-/home/ymy/workspace/python/每天一个python小程序/20151215mysql和mongo值对比.py
+INSTUP脚本.dsp.check出价没有赢价
+/home/ymy/workspace/python/脚本/dsp/check出价没有赢价.py
 INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0
-每天一个python小程序.20151215mysql和mongo值对比=2
-mysql_show=5
-get_solutionid=1
 mongo_show=4
+get_solutionid=1
 mongo_connection_show=3
+mysql_price=5
 main=6
+脚本.dsp.check出价没有赢价=2

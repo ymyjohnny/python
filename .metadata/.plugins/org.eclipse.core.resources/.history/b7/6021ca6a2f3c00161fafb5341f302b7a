@@ -1,0 +1,54 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2016-6-22
+@author: ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+FNV_64_INIT = 0xcbf29ce484222325L
+FNV_64_PRIME = 0x100000001b3L
+FNV_32_INIT = 0x811c9dc5
+FNV_32_PRIME = 0x01000193
+INT_MAX = 2147483647
+
+class HashBuilder(object):
+    def __init__(self, iTotal, iConstant):
+        self.iTotal = iTotal
+        self.iConstant = iConstant
+
+    def append(self, obj):
+        self.iTotal = self.iTotal * self.iConstant + stringHashCode(obj)
+        self.iTotal &= 0xFFFFFFFF
+        return self
+
+    def toHashCode(self):
+        return self.iTotal
+
+def stringHashCode(value):
+    h = 0;
+    if (h == 0 and len(value) > 0):
+        for x in value:
+            h = 31 * h + ord(x)
+            h &= 0xFFFFFFFF
+    return h;
+
+def find(id):
+    builder = HashBuilder(23,13)
+    builder.append(id)
+    hc = builder.toHashCode()
+    hc = (~hc & 0xFFFFFFFF) +1 if hc > INT_MAX else hc
+    print hc % 500
+
+def hash32(k):
+    rv = FNV_32_INIT
+    l = len(k)
+    for i in range(l):
+        rv ^= ord(k[i])
+        rv *= FNV_32_PRIME
+        rv &= 0xFFFFFFFF
+    return  (~rv & 0xFFFFFFFF) +1 if rv > INT_MAX else rv
+
+if __name__ == "__main__":
+    asid = str(665588058604797)
+    find(asid)

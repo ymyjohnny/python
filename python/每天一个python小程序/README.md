@@ -23,3 +23,26 @@
 2015-12-10 diff 目录
 
 2015-12-15 mysql和mongo值对比.py
+
+2016-01-22 随机数.py
+
+2016-05-17 checkmongofc.py 迁移mongo过程中新fc和老fc之间的量
+
+2016-05-20 redisclusterinstantaneous.py 查看redis集群每个节点的实时请求量
+
+2016-05-23 dspdumpview.py 查询mysql中某张view的数据
+
+2016-06-01 redisclusterslavebehind.py 查询redis集群各节点的slave延迟时间
+
+2016-06-01 redisclusterslavestatus.py 查询redis集群各节点的slave状态
+
+2016-06-22 mongoaddindex.py 给mongo某个表添加索引
+
+2016-06-22 mongo-index-check.py 检查mongo库的索引
+
+2016-06-27 获取mongostatus.py 查看mongo某个表的status
+
+2016-07-14 pingcheck.py 监测机房网络工具
+
+2016-10-26 check出价没有赢价.py 列出检查有出价没有赢价的投放
+

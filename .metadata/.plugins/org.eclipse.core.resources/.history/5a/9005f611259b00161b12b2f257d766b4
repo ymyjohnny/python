@@ -1,0 +1,39 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2016-10-26
+@author:ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+
+import MySQLdb,pymongo
+import datetime
+
+
+def get_solutionid(adx):
+    conn=MySQLdb.connect(host="221.228.228.4",user="root",passwd="uqcqa8zd",db="dsp_backend")
+    cursor = conn.cursor ()
+    #打印多少条记录
+    sid =  cursor.execute("SELECT solutionID  FROM  `virtual_%s_solution_view "  % adx )
+    #print count
+    #打印具体内容
+    info = cursor.fetchmany(sid)
+    print info
+    for i in info:
+        mysqlsid =  i[0]
+        yield mysqlsid
+
+    cursor.close ()  
+    conn.close ()
+
+def main():
+    adx = "taobao"
+    solutionid = get_solutionid(adx)
+    for id in solutionid:
+        print id
+
+
+if __name__ == '__main__':
+    main()
