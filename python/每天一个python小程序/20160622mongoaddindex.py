@@ -19,7 +19,7 @@ def mongo_connection_show(ip,db):
     
 def main():
     for a in range(0,500):
-       index = mongo_connection_show('221.228.228.4','unionfc%d' % a)
+       index = mongo_connection_show('192.168.32.4','unionfc%d' % a)
        for x in index:
            print x
        #print index

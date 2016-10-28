@@ -13,7 +13,7 @@ import requests
 
 
 #def mongo_connection_show(ip,db):
-client=pymongo.MongoClient("221.228.228.4",27018)
+client=pymongo.MongoClient("192.168.32.4",27018)
 db=client.unionfc0
 conn=db.user_solution_impression
 conn

@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
     data=post_data(config)
 
-    r = requests.post("http://221.228.228.2:1988/v1/push", data=json.dumps(data))
+    r = requests.post("http://192.168.32.2:1988/v1/push", data=json.dumps(data))
 
     #print r.text
     print json.dumps(data)

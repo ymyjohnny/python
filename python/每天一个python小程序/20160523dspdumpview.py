@@ -10,7 +10,7 @@ import MySQLdb
 import pymongo
 
 def get_view(view):
-    conn=MySQLdb.connect(host="221.228.228.4",user="root",passwd="uqcqa8zd",db="dsp_test")
+    conn=MySQLdb.connect(host="192.168.32.4",user="root",passwd="uqcqa8zd",db="dsp_test")
     cursor = conn.cursor ()
     #打印多少条记录
     viewdata =  cursor.execute("SELECT * FROM  %d"  % view )

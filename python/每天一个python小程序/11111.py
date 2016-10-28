@@ -11,8 +11,8 @@ import sys
 import pymongo
 import time
 
-readMongo = ["221.228.228.71", 27018]
-writeMongo = ["221.228.228.71", 27018]
+readMongo = ["192.168.32.71", 27018]
+writeMongo = ["192.168.32.71", 27018]
 
 TABLE_NAME = "user_solution_impression"
 FNV_64_INIT = 0xcbf29ce484222325L

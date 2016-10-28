@@ -19,7 +19,7 @@ config["datetime"] =  datetime.datetime.now().strftime("%Y-%m-%d")
 #print config
 
 #连接mongo后写入ymytest.test1表中
-mongoclient = pymongo.MongoClient('221.228.230.172', 27018)
+mongoclient = pymongo.MongoClient('192.168.32.172', 27018)
 db = mongoclient.ymytest 
 
 db.test1.save(config)

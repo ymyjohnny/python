@@ -30,7 +30,7 @@ for i in serverinfo.splitlines():
       dict[str(i.split('=>')[0].strip())] = str(i.split('=>')[1].strip())
 #print dict
 
-mongoclient = pymongo.MongoClient('221.228.230.170', 27018)
+mongoclient = pymongo.MongoClient('192.168.32.170', 27018)
 db = mongoclient.unionfc8
 
 db.user_solution_impression2.save(dict)
