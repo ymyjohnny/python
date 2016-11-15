@@ -94,7 +94,7 @@ def main():
         #文件指针重新回到文件开头，重读文件
         f1.seek(0)
         #邮件主题和邮件内容
-        if send_mail(mailto_list,sub,f1.read()):
+         if send_mail(mailto_list,sub,f1.read()):
              print "done!"
         else:
           print "failed!"

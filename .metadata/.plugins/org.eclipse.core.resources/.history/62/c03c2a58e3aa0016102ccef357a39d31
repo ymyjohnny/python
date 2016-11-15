@@ -87,19 +87,12 @@ def main():
         mongorow = mongo_connection_show(day,id)
         mongo_show(mongorow,show)
 
-    f1 = open('mail1.txt')
-    #for i in f1.read():
-    #   print i
-    if len(f1.read()) != 0:
-        #文件指针重新回到文件开头，重读文件
-        f1.seek(0)
-        #邮件主题和邮件内容
-        if send_mail(mailto_list,sub,f1.read()):
-             print "done!"
-        else:
-          print "failed!"
+    f1 = open('mail1.txt','r')
+
+    if send_mail(mailto_list,sub,f1.read()):  #邮件主题和邮件内容
+        print "done!"
     else:
-        print "no data"
+        print "failed!"
     f1.close()
     os.remove('mail1.txt')
 
