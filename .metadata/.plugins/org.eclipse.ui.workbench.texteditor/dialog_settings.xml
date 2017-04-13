@@ -9,12 +9,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
+		<item value="mongo_show" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="f1"/>
+			<item value="mongo_show"/>
+			<item value="key"/>
+			<item value="fw"/>
+			<item value="print"/>
+			<item value="get_solut"/>
+			<item value="date"/>
+			<item value="%"/>
+			<item value="item"/>
 		</list>
 		<list key="replacehistory">
 		</list>

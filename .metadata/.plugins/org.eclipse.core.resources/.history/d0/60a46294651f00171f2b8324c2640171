@@ -1,0 +1,64 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2017-4-10
+@author:ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+import MySQLdb
+import datetime
+
+def getmonitor(date):
+    conn=MySQLdb.connect(host="221.228.90.4",user="root",passwd="uqcqa8zd",db="dsp_backend")
+    cursor = conn.cursor ()
+    data = cursor.execute("SELECT monitorfield TIME FROM  dsp_solution_statistic  WHERE  monitorField LIKE  'time-%%-percentile98' AND TIME >=  '%s' GROUP BY monitorField " % date )
+    info = cursor.fetchmany(data)
+    for row in info:
+        field =  row[0]
+        yield field
+    cursor.close ()
+    conn.close ()
+
+def getdelaytime(date,monitorfield):
+    conn=MySQLdb.connect(host="221.228.90.4",user="root",passwd="uqcqa8zd",db="dsp_backend")
+    cursor = conn.cursor ()
+    #打印多少条记录
+    data = cursor.execute("SELECT monitorfield,monitorcount,time,hostname FROM  `dsp_solution_statistic` WHERE  `monitorField`  =  '%s' AND TIME >=  '%s' order by monitorcount desc limit 1"  % (monitorfield,date)  )
+    #打印具体内容
+    info  = cursor.fetchmany(data)
+    for row in info:
+        monitorcount =  row[1]
+        hostname = row[3]
+        if monitorcount > 1:
+            print date, monitorfield, hostname  , monitorcount  , 'ms'  ,'大于100ms'
+    cursor.close ()
+    conn.close ()
+
+
+def main():
+    d1 = datetime.datetime.now()
+    d1.strftime("%Y-%m-%d %H:%M:%S")
+    d2 = d1 - datetime.timedelta(minutes=10)
+    date = d2.strftime("%Y-%m-%d %H:%M:%S")
+    #field = getmonitor(date)
+    fielddata = {"time-adsameCookieGet-percentile98" :"redis响应时间",
+             "time-apply-percentile98" : "readFC服务内部处理时间",
+             "time-assessByStrategy-percentile98" : "智能竞价策略执行时间",
+             "time-commit-percentile98" : "writeFC服务内部处理时间",
+             "time-frequency-percentile98" : "bidder访问FC响应时间",
+             "time-readmongo-percentile98" : "mongo读响应时间",
+             "time-retargeting-percentile98" : "重定向服务响应时间",
+             "time-setDatacache-percentile98" : "上下文写入kafka时间",
+             "time-split-percentile98" : "硬过滤处理时间",
+             "time-targetingStrategy-percentile98" : "人群定向相应时间",
+             "time-total-percentile98" : "总响应时间"
+             }
+    field = fielddata.keys()
+    for monitorfield in field:
+        getdelaytime(date,monitorfield)
+
+
+if __name__ == '__main__':
+    main()

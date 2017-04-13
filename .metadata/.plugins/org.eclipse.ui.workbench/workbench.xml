@@ -41,13 +41,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="20160621mongoselect.py" partName="20160621mongoselect" path="/home/ymy/workspace/python/每天一个python小程序/20160621mongoselect.py" title="20160621mongoselect" tooltip="python/每天一个python小程序/20160621mongoselect.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/每天一个python小程序/20160621mongoselect.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="426" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="check-dsp-delaytime.py" partName="check-dsp-delaytime" path="/home/ymy/workspace/python/脚本/dsp/check-dsp-delaytime.py" title="check-dsp-delaytime" tooltip="python/脚本/dsp/check-dsp-delaytime.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/脚本/dsp/check-dsp-delaytime.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="593" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="20161028循环练习.py" partName="20161028循环练习" path="/home/ymy/workspace/python/每天一个python小程序/20161028循环练习.py" title="20161028循环练习" tooltip="python/每天一个python小程序/20161028循环练习.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/每天一个python小程序/20161028循环练习.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="374" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="20170410dspdelaytime.py" partName="20170410dspdelaytime" path="/home/ymy/workspace/python/每天一个python小程序/20170410dspdelaytime.py" title="20170410dspdelaytime" tooltip="python/每天一个python小程序/20170410dspdelaytime.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/每天一个python小程序/20170410dspdelaytime.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1263" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -68,13 +68,11 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/home/ymy/workspace/python"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/python学习"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day1"/>
-<expanded IMemento.internal.id="/home/ymy/workspace/python/python学习/day9"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/范例"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/脚本"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/脚本/dsp"/>
 <expanded IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序"/>
-<selected IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序/20161028循环练习.py"/>
+<selected IMemento.internal.id="/home/ymy/workspace/python/每天一个python小程序/20170410dspdelaytime.py"/>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
@@ -297,7 +295,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23969631" ratioLeft="442" ratioRight="1402" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.21312365" ratioLeft="393" ratioRight="1451" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.74923545" ratioLeft="735" ratioRight="246" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -316,166 +314,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20161026check出价没有赢价.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20170410dspdelaytime.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20151215mysql和mongo值对比.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/脚本/dsp/checkmongowin.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/脚本/dsp/check出价没有赢价.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20161026check出价没有赢价.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/脚本/dsp/check-dsp-delaytime.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20161115连接redis.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20160621mongoselect.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20160714pingcheck.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/python学习/day1/if练习1.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/脚本/dsp/sendmail.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/python/每天一个python小程序/mail.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20161115调用ip138接口.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/每天一个python小程序/20161028循环练习.py"/>
 </editors>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1628" y="38"/>
+<item historyLabel="20151215mysql和mongo值对比" index="1">
+<position info="not_deleted" x="1810" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1628" y="37"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2115" y="214"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
-<position/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="684" y="0"/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1603" y="191"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2432" y="0"/>
 </item>
 <item historyLabel="20151215mysql和mongo值对比" index="1">
 <position info="not_deleted" x="1810" y="0"/>
 </item>
-<item historyLabel="20161026check出价没有赢价" index="0">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="20160621mongoselect" index="4">
-<position info="not_deleted" x="437" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1915" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position/>
 </item>
 <item historyLabel="20151215mysql和mongo值对比" index="1">
 <position info="not_deleted" x="1810" y="0"/>
 </item>
-<item historyLabel="20161026check出价没有赢价" index="0">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="20160621mongoselect" index="4">
-<position info="not_deleted" x="437" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
 </item>
-<item historyLabel="20160714pingcheck" index="5">
-<position info="not_deleted" x="1757" y="0"/>
-</item>
-<item historyLabel="20160621mongoselect" index="4">
-<position info="not_deleted" x="437" y="0"/>
-</item>
-<item historyLabel="if练习1" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="if练习1" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1422" y="0"/>
+</item>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="if练习1" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1915" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2086" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="if练习1" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="184" y="9"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
+<item historyLabel="20170410dspdelaytime" index="0">
 <position/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1915" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="155" y="22"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
-<position/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1569" y="0"/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1915" y="0"/>
-</item>
-<item historyLabel="check出价没有赢价" index="3">
-<position info="not_deleted" x="1306" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1915" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2849" y="0"/>
 </item>
 <item historyLabel="20151215mysql和mongo值对比" index="1">
 <position info="not_deleted" x="1810" y="0"/>
 </item>
-<item historyLabel="20161026check出价没有赢价" index="0">
-<position/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="765" y="0"/>
 </item>
-<item historyLabel="20160621mongoselect" index="4">
-<position info="not_deleted" x="437" y="0"/>
+<item historyLabel="check-dsp-delaytime" index="3">
+<position info="not_deleted" x="2347" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
-<position/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="765" y="0"/>
 </item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1957" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2849" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
-<position/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1049" y="0"/>
 </item>
-<item historyLabel="sendmail" index="7">
-<position/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2849" y="0"/>
 </item>
-<item historyLabel="check出价没有赢价" index="3">
-<position/>
-</item>
-<item historyLabel="sendmail" index="7">
-<position info="not_deleted" x="484" y="0"/>
-</item>
-<item historyLabel="check出价没有赢价" index="3">
-<position info="not_deleted" x="0" y="2809"/>
-</item>
-<item historyLabel="20161026check出价没有赢价" index="0">
-<position info="not_deleted" x="2683" y="0"/>
-</item>
-<item historyLabel="check出价没有赢价" index="3">
-<position info="not_deleted" x="0" y="2809"/>
-</item>
-<item historyLabel="sendmail" index="7">
-<position info="not_deleted" x="484" y="0"/>
-</item>
-<item historyLabel="checkmongowin" index="2">
-<position info="not_deleted" x="1957" y="0"/>
-</item>
-<item historyLabel="20160621mongoselect" index="4">
-<position info="not_deleted" x="437" y="0"/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1049" y="0"/>
 </item>
 <item historyLabel="20151215mysql和mongo值对比" index="1">
-<position info="not_deleted" x="1810" y="0"/>
+<position info="not_deleted" x="1058" y="10"/>
 </item>
-<item historyLabel="20160621mongoselect" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1049" y="0"/>
 </item>
-<item historyLabel="mail.txt" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2849" y="0"/>
 </item>
-<item historyLabel="20160621mongoselect" index="4">
+<item historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1049" y="0"/>
+</item>
+<item historyLabel="20161026check出价没有赢价" index="2">
+<position info="not_deleted" x="2849" y="0"/>
+</item>
+<item historyLabel="20151215mysql和mongo值对比" index="1">
+<position info="not_deleted" x="1058" y="10"/>
+</item>
+<item historyLabel="20161115连接redis" index="4">
+<position info="not_deleted" x="1147" y="0"/>
+</item>
+<item historyLabel="20160621mongoselect" index="5">
 <position info="not_deleted" x="426" y="0"/>
 </item>
-<item active="true" historyLabel="20161028循环练习" index="9">
+<item historyLabel="20161115调用ip138接口" index="6">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="20160621mongoselect" index="5">
+<position info="not_deleted" x="426" y="0"/>
+</item>
+<item historyLabel="20161028循环练习" index="7">
 <position info="not_deleted" x="374" y="0"/>
+</item>
+<item historyLabel="20160621mongoselect" index="5">
+<position info="not_deleted" x="426" y="0"/>
+</item>
+<item historyLabel="check-dsp-delaytime" index="3">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item active="true" historyLabel="20170410dspdelaytime" index="0">
+<position info="not_deleted" x="1580" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -494,6 +490,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20170410dspdelaytime.py" tooltip="python/每天一个python小程序/20170410dspdelaytime.py">
+<persistable path="/python/每天一个python小程序/20170410dspdelaytime.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="check-dsp-delaytime.py" tooltip="python/脚本/dsp/check-dsp-delaytime.py">
+<persistable path="/python/脚本/dsp/check-dsp-delaytime.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20161026check出价没有赢价.py" tooltip="python/每天一个python小程序/20161026check出价没有赢价.py">
+<persistable path="/python/每天一个python小程序/20161026check出价没有赢价.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151215mysql和mongo值对比.py" tooltip="python/每天一个python小程序/20151215mysql和mongo值对比.py">
+<persistable path="/python/每天一个python小程序/20151215mysql和mongo值对比.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160517checkmongofc.py" tooltip="python/每天一个python小程序/20160517checkmongofc.py">
+<persistable path="/python/每天一个python小程序/20160517checkmongofc.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20161115连接redis.py" tooltip="python/每天一个python小程序/20161115连接redis.py">
+<persistable path="/python/每天一个python小程序/20161115连接redis.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20161115调用ip138接口.py" tooltip="python/每天一个python小程序/20161115调用ip138接口.py">
+<persistable path="/python/每天一个python小程序/20161115调用ip138接口.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20161028循环练习.py" tooltip="python/每天一个python小程序/20161028循环练习.py">
 <persistable path="/python/每天一个python小程序/20161028循环练习.py"/>
 </file>
@@ -512,32 +529,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="checkmongowin.py" tooltip="python/脚本/dsp/checkmongowin.py">
 <persistable path="/python/脚本/dsp/checkmongowin.py"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151215mysql和mongo值对比.py" tooltip="python/每天一个python小程序/20151215mysql和mongo值对比.py">
-<persistable path="/python/每天一个python小程序/20151215mysql和mongo值对比.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20161026check出价没有赢价.py" tooltip="python/每天一个python小程序/20161026check出价没有赢价.py">
-<persistable path="/python/每天一个python小程序/20161026check出价没有赢价.py"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160621mongoselect.py" tooltip="python/每天一个python小程序/20160621mongoselect.py">
 <persistable path="/python/每天一个python小程序/20160621mongoselect.py"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160622mongoaddindex.py" tooltip="python/每天一个python小程序/20160622mongoaddindex.py">
 <persistable path="/python/每天一个python小程序/20160622mongoaddindex.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160622mongo-index-check.py" tooltip="python/每天一个python小程序/20160622mongo-index-check.py">
-<persistable path="/python/每天一个python小程序/20160622mongo-index-check.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160627获取mongostatus.py" tooltip="python/每天一个python小程序/20160627获取mongostatus.py">
-<persistable path="/python/每天一个python小程序/20160627获取mongostatus.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160714pingcheck.py" tooltip="python/每天一个python小程序/20160714pingcheck.py">
-<persistable path="/python/每天一个python小程序/20160714pingcheck.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20160601redisclusterslavebehind.py" tooltip="python/每天一个python小程序/20160601redisclusterslavebehind.py">
-<persistable path="/python/每天一个python小程序/20160601redisclusterslavebehind.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="20151123获取java进程的id号.py" tooltip="python/每天一个python小程序/20151123获取java进程的id号.py">
-<persistable path="/python/每天一个python小程序/20151123获取java进程的id号.py"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,40 @@
+#!/usr/bin/python
+#coding=utf-8
+'''
+Created on 2017-4-10
+@author:ymy
+Copyright ymyjohnny@gmail.com
+'''
+
+
+import MySQLdb,pymongo
+import datetime
+
+def getdelaytime(date,monitorfield):
+    conn=MySQLdb.connect(host="221.228.90.4",user="root",passwd="uqcqa8zd",db="dsp_backend")
+    cursor = conn.cursor ()
+    #打印多少条记录
+    print monitorfield
+    print date
+    data = cursor.execute("SELECT monitorfield,monitorcount,time,hostname FROM  `dsp_solution_statistic` WHERE  `monitorField`  =  '%s' AND TIME >=  '%s' order by monitorcount desc limit 1"  % (monitorfield,date)  )
+    #打印具体内容
+    info  = cursor.fetchmany(data)
+    print info
+    for row in info:
+        monitorcount =  row[1]
+        hostname = row[3]
+        if monitorcount > 1:
+            print hostname,  monitorfield , monitorcount  , 'ms'  ,'大于100ms'
+        
+        
+    cursor.close ()  
+    conn.close ()  
+    
+def main():
+    date = '2017-04-11 14:40:00'
+    monitorfield = 'time-frequency-percentile98'
+    test1 = getdelaytime(date,monitorfield)
+    
+
+if __name__ == '__main__':
+    main()
