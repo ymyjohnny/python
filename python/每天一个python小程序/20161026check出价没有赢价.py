@@ -42,9 +42,9 @@ def mongo_connection_show(day,id):
         #id = long(int(id))
         f = open('mail1.txt','a')
         if conn.find({"date":day,'id':id}).count()==0:
-           # print "%s not win" % id
+            # print "%s not win" % id
             fw = "%s  price次数大于1000 没有赢价,请检查投放  \n" % id
-           # print fw
+            # print fw
             f.write(fw)
         else:
             for i in  conn.find({"date":day,'id':id}):

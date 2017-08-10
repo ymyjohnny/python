@@ -10,7 +10,7 @@ Copyright ymyjohnny@gmail.com
 import pymongo
 
 
-mongoclient = pymongo.MongoClient('192.168.32.151, 27018')
+mongoclient = pymongo.MongoClient('221.228.90.46, 27018')
 db = mongoclient.database_names()
 
 

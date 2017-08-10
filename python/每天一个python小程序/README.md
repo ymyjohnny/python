@@ -55,3 +55,5 @@
 2017-04-28 通过nodetool命令查看cassandra表的状态（读写count是累计值，通过写文件做2次取值的差值）
 
 2017-05-03 通过nodetool命令查看cassandra表的状态
+
+2017-05-05 winnotice的errorlog监控
