@@ -14,7 +14,7 @@ import datetime
 
 def getmonitor(date,date1):
     l = []
-    conn=MySQLdb.connect(host="221.228.90.4",user="root",passwd="uqcqa8zd",db="dsp")
+    conn=MySQLdb.connect(host="192.168.32.4",user="root",passwd="uqcqa8zd",db="dsp")
     cursor = conn.cursor ()
     data = cursor.execute("SELECT  id  FROM  dsp_orders  WHERE  end_time <  '%s'  and   end_time >  '%s'" % (date,date1) )
     info = cursor.fetchmany(data)
@@ -54,7 +54,7 @@ def main():
     date1 = d3.strftime("%Y-%m-%d %H:%M:%S")
     l = getmonitor(date,date1)
     for a in range(499,500):
-        mongo_del('221.228.90.4',a ,l)
+        mongo_del('192.168.32.4',a ,l)
 
 if __name__ == '__main__':
     main()

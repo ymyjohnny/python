@@ -29,7 +29,7 @@ def get_order_impression(date):
 
 
 def get_mongo_expression(date,orderid):
-        client=pymongo.MongoClient('221.228.90.4',27018)
+        client=pymongo.MongoClient('192.168.32.4',27018)
         db=client.gdb
         conn=db.daily_sum
         #id = long(int(id))

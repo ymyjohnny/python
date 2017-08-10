@@ -31,7 +31,7 @@ def  grep_error(adx):
     return dic
 
 def import_mongo(adx):
-    client=pymongo.MongoClient("221.228.90.4",27018)
+    client=pymongo.MongoClient("192.168.32.4",27018)
     db=client.win_error_parse_sid
     conn=db.daily
     grepitems = ["ERROR parse request error"]

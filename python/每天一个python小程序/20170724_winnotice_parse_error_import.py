@@ -14,7 +14,7 @@ import pymongo
 ts = int(time.time())
 
 def import_mongo(adx):
-    client=pymongo.MongoClient("221.228.90.61",27018)
+    client=pymongo.MongoClient("192.168.32.61",27018)
     db=client.win_error_parse_sid.daily
     grepitems = ["ERROR\ parse\ request"]
     d1 = datetime.datetime.now()
