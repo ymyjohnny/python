@@ -26,13 +26,13 @@ def  redis_node():
 redis_node()
 
 def redis_cluster():
-    redis_nodes =  [{'host':'221.228.230.146','port':6370},
-                    {'host':'221.228.230.146','port':6371},
-                    {'host':'221.228.230.146','port':6372},
-                    {'host':'221.228.230.146','port':6373},
-                    {'host':'221.228.230.146','port':6374},
-                    {'host':'221.228.230.146','port':6375},
-                    {'host':'221.228.230.146','port':6376}
+    redis_nodes =  [{'host':'192.168.32.146','port':6370},
+                    {'host':'192.168.32.146','port':6371},
+                    {'host':'192.168.32.146','port':6372},
+                    {'host':'192.168.32.146','port':6373},
+                    {'host':'192.168.32.146','port':6374},
+                    {'host':'192.168.32.146','port':6375},
+                    {'host':'192.168.32.146','port':6376}
                    ]
     try:
         redisconn = StrictRedisCluster(startup_nodes=redis_nodes)
