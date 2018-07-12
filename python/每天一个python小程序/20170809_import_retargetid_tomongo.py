@@ -21,23 +21,34 @@ def import_uid_to_mongo():
     d1.strftime("%Y-%m-%d")
     d2 = d1 - datetime.timedelta(days=1)
     date = str(d2.strftime("%Y-%m-%d"))
-    os.chdir("/home/samelog/backup")
+    os.chdir("/home/samelog/backup/ymy/")
     Process = os.popen("awk -F \, '{print $1,$5,$12}' bidder_report.%s.*|sort -n|uniq"   % date  ).readlines()
     for i in Process:
         try:
-           logtype =  i.splitlines()[0].split()[0]
-           uid = i.splitlines()[0].split()[1]
-           orderid  = i.splitlines()[0].split()[2]
-           if len(uid) == 15:
-              try:
-                  d3 = datetime.datetime.now()
-                  f = float(uid)
-                  #print uid  + "," + orderid + "," + logtype
-                  db.update_many({'uid':uid,'orderid':orderid, 'logtype':logtype},{'$set':{"update_time":d3}}, upsert=True)
-              except:
-                  continue
+            logtype =  i.splitlines()[0].split()[0]
+            uid = i.splitlines()[0].split()[1]
+            orderid  = i.splitlines()[0].split()[2]
+            if 'ASID:' in uid:
+                try:
+                    d3 = datetime.datetime.now()
+                    f = uid.split(":")[1]
+                    uidtype = 'adsame_id'
+                    print uid  + "," + orderid + "," + logtype
+                    db.update_many({'uid':f,'orderid':orderid, 'logtype':logtype, 'uidtype':uidtype},{'$set':{"update_time":d3}}, upsert=True)
+                except:
+                    continue
+            if 'adsame_cookie' in uid:
+                try:
+                    d3 = datetime.datetime.now()
+                    f = uid.split(":")[1]
+                    uidtype = 'adsame_cookie'
+                    print uid  + "," + orderid + "," + logtype
+                    db.update_many({'uid':f,'orderid':orderid, 'logtype':logtype, 'uidtype':uidtype},{'$set':{"update_time":d3}}, upsert=True)
+                except:
+                    continue
+
         except:
-              continue
+            continue
 
 def main():
     import_uid_to_mongo()
