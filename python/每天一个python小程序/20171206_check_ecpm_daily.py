@@ -42,8 +42,12 @@ def main():
                "LOADING":"loading页",
                "RICH":"富媒体",
                "ON_SCREEEN":"视频",
+                "OVERLAY":"浮尘",
+               "FULL-SCREEN":"移动全屏",
+               "CORNER":"角标",
+               "FOCUS":"焦点图",
                "FEEDS":"信息流"}
-    flowtypes = ["PC","Mobile-App","Mobile-Web"]
+    flowtypes = ["PC","Mobile-App","Mobile-Web","OTT"]
     tradetypes = ["RTB","PDB","PD","PFD","PA","VARIED_FLOOR_RTB"]
     adxes = ["taobao","baidu","google","youku","iqiyi","tencent","gdt","letv","sohu","quantone","adinall"]
     solution_blacklist = ["400008934","100035023","400002853"]
